@@ -1,0 +1,145 @@
+2024-07-12 00:30:41.402 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-12 00:30:42.491 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-12 00:30:42.494 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-12 00:30:42.494 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-12 00:30:42.782 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:30:42.783 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:30:42.957 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-12 00:30:43.026 +03:00 [DBG] Creating DbConnection.
+2024-07-12 00:30:43.287 +03:00 [DBG] Created DbConnection. (259ms).
+2024-07-12 00:30:43.290 +03:00 [DBG] Migrating using database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:43.312 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:43.908 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:43.917 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:30:43.925 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (8ms).
+2024-07-12 00:30:43.927 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (14ms).
+2024-07-12 00:30:43.936 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:30:43.966 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:30:43.969 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:43.978 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (4ms).
+2024-07-12 00:30:43.982 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-07-12 00:30:43.982 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:30:43.982 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:30:43.982 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:43.983 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:43.984 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:30:44.001 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:30:44.001 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.002 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:30:44.002 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.003 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.003 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:30:44.003 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:30:44.003 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:30:44.003 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:30:44.004 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:30:44.004 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.004 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:30:44.005 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-07-12 00:30:44.005 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:30:44.005 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:30:44.005 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.005 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.005 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:30:44.005 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:30:44.006 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.006 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:30:44.049 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-12 00:30:44.049 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-07-12 00:30:44.049 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-07-12 00:30:44.049 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.049 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.050 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-07-12 00:30:44.054 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-07-12 00:30:44.059 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.061 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 4ms reading results.
+2024-07-12 00:30:44.061 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.061 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:30:44.079 +03:00 [INF] Applying migration '20240711204535_AddChat'.
+2024-07-12 00:30:44.192 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.193 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:44.195 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-07-12 00:30:44.204 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-07-12 00:30:44.205 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:30:44.205 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:30:44.206 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-07-12 00:30:44.206 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetUsers]
+WHERE [Id] = '9784f712-85af-4dec-97f0-e0f202fa131d';
+SELECT @@ROWCOUNT;
+2024-07-12 00:30:44.269 +03:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetUsers]
+WHERE [Id] = '9784f712-85af-4dec-97f0-e0f202fa131d';
+SELECT @@ROWCOUNT;
+2024-07-12 00:30:44.270 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:30:44.270 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:30:44.270 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:30:44.270 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AccessFailedCount', N'Age', N'Bio', N'BirthDay', N'City', N'ConcurrencyStamp', N'Country', N'CoverImageUrl', N'Email', N'EmailConfirmed', N'FirstName', N'Gender', N'LastName', N'LockoutEnabled', N'LockoutEnd', N'NormalizedEmail', N'NormalizedUserName', N'PasswordHash', N'PhoneNumber', N'PhoneNumberConfirmed', N'ProfileImageUrl', N'SecurityStamp', N'TwoFactorEnabled', N'UserName') AND [object_id] = OBJECT_ID(N'[AspNetUsers]'))
+    SET IDENTITY_INSERT [AspNetUsers] ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [Age], [Bio], [BirthDay], [City], [ConcurrencyStamp], [Country], [CoverImageUrl], [Email], [EmailConfirmed], [FirstName], [Gender], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [ProfileImageUrl], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES ('2faba582-9f2f-48a7-bb13-334ea0fcd3c1', 0, 25, N'This is a default user.', '1998-01-01T00:00:00.0000000', N'Default City', N'd4392e2d-3d95-4707-8a45-c43f2e7b9497', N'Default Country', NULL, N'defaultuser@example.com', CAST(1 AS bit), N'Default', 0, N'User', CAST(0 AS bit), NULL, N'DEFAULTUSER@EXAMPLE.COM', N'DEFAULTUSER', N'AQAAAAIAAYagAAAAEKbIMH19BUCi2u2mRGUN2GJOLg+hBa1+Oa9VgkwECRRCe6ZUpyRlYIYSsbfzvzZjMQ==', NULL, CAST(0 AS bit), NULL, N'', CAST(0 AS bit), N'defaultuser');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AccessFailedCount', N'Age', N'Bio', N'BirthDay', N'City', N'ConcurrencyStamp', N'Country', N'CoverImageUrl', N'Email', N'EmailConfirmed', N'FirstName', N'Gender', N'LastName', N'LockoutEnabled', N'LockoutEnd', N'NormalizedEmail', N'NormalizedUserName', N'PasswordHash', N'PhoneNumber', N'PhoneNumberConfirmed', N'ProfileImageUrl', N'SecurityStamp', N'TwoFactorEnabled', N'UserName') AND [object_id] = OBJECT_ID(N'[AspNetUsers]'))
+    SET IDENTITY_INSERT [AspNetUsers] OFF;
+2024-07-12 00:30:45.267 +03:00 [ERR] Failed executing DbCommand (995ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AccessFailedCount', N'Age', N'Bio', N'BirthDay', N'City', N'ConcurrencyStamp', N'Country', N'CoverImageUrl', N'Email', N'EmailConfirmed', N'FirstName', N'Gender', N'LastName', N'LockoutEnabled', N'LockoutEnd', N'NormalizedEmail', N'NormalizedUserName', N'PasswordHash', N'PhoneNumber', N'PhoneNumberConfirmed', N'ProfileImageUrl', N'SecurityStamp', N'TwoFactorEnabled', N'UserName') AND [object_id] = OBJECT_ID(N'[AspNetUsers]'))
+    SET IDENTITY_INSERT [AspNetUsers] ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [Age], [Bio], [BirthDay], [City], [ConcurrencyStamp], [Country], [CoverImageUrl], [Email], [EmailConfirmed], [FirstName], [Gender], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [ProfileImageUrl], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES ('2faba582-9f2f-48a7-bb13-334ea0fcd3c1', 0, 25, N'This is a default user.', '1998-01-01T00:00:00.0000000', N'Default City', N'd4392e2d-3d95-4707-8a45-c43f2e7b9497', N'Default Country', NULL, N'defaultuser@example.com', CAST(1 AS bit), N'Default', 0, N'User', CAST(0 AS bit), NULL, N'DEFAULTUSER@EXAMPLE.COM', N'DEFAULTUSER', N'AQAAAAIAAYagAAAAEKbIMH19BUCi2u2mRGUN2GJOLg+hBa1+Oa9VgkwECRRCe6ZUpyRlYIYSsbfzvzZjMQ==', NULL, CAST(0 AS bit), NULL, N'', CAST(0 AS bit), N'defaultuser');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AccessFailedCount', N'Age', N'Bio', N'BirthDay', N'City', N'ConcurrencyStamp', N'Country', N'CoverImageUrl', N'Email', N'EmailConfirmed', N'FirstName', N'Gender', N'LastName', N'LockoutEnabled', N'LockoutEnd', N'NormalizedEmail', N'NormalizedUserName', N'PasswordHash', N'PhoneNumber', N'PhoneNumberConfirmed', N'ProfileImageUrl', N'SecurityStamp', N'TwoFactorEnabled', N'UserName') AND [object_id] = OBJECT_ID(N'[AspNetUsers]'))
+    SET IDENTITY_INSERT [AspNetUsers] OFF;
+2024-07-12 00:30:45.270 +03:00 [DBG] Disposing transaction.
+2024-07-12 00:30:45.272 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:45.272 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:30:45.274 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-12 00:30:45.276 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:30:45.277 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-07-12 00:51:50.741 +03:00 [DBG] debug-messages
+2024-07-12 00:51:50.936 +03:00 [INF] Information-messages
+2024-07-12 00:51:50.941 +03:00 [WRN] warning-messages
+2024-07-12 00:51:50.942 +03:00 [ERR] error-messages
+2024-07-12 00:51:50.942 +03:00 [FTL] critical-messages
+2024-07-12 00:51:51.047 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-12 00:51:51.164 +03:00 [DBG] Hosting starting
+2024-07-12 00:51:51.196 +03:00 [INF] User profile is available. Using 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-12 00:51:51.209 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5.xml'.
+2024-07-12 00:51:51.221 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-0a228ab3-8951-46e7-a96d-23771960201b.xml'.
+2024-07-12 00:51:51.226 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-245c0a72-8b3f-4865-a8f3-044c8465e7ce.xml'.
+2024-07-12 00:51:51.228 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-9e24c8a4-8c0a-4b11-8441-7806fc961171.xml'.
+2024-07-12 00:51:51.230 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-f8bc08b4-5662-407f-9999-ef927521d255.xml'.
+2024-07-12 00:51:51.239 +03:00 [DBG] Found key {00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5}.
+2024-07-12 00:51:51.249 +03:00 [DBG] Found key {0a228ab3-8951-46e7-a96d-23771960201b}.
+2024-07-12 00:51:51.255 +03:00 [DBG] Found key {245c0a72-8b3f-4865-a8f3-044c8465e7ce}.
+2024-07-12 00:51:51.260 +03:00 [DBG] Found key {9e24c8a4-8c0a-4b11-8441-7806fc961171}.
+2024-07-12 00:51:51.264 +03:00 [DBG] Found key {f8bc08b4-5662-407f-9999-ef927521d255}.
+2024-07-12 00:51:51.277 +03:00 [DBG] Considering key {9e24c8a4-8c0a-4b11-8441-7806fc961171} with expiration date 2024-08-18 11:19:54Z as default key.
+2024-07-12 00:51:51.286 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-12 00:51:51.293 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-07-12 00:51:51.297 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-12 00:51:51.304 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-07-12 00:51:51.312 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-07-12 00:51:51.321 +03:00 [DBG] Using key {9e24c8a4-8c0a-4b11-8441-7806fc961171} as the default key.
+2024-07-12 00:51:51.323 +03:00 [DBG] Key ring with default key {9e24c8a4-8c0a-4b11-8441-7806fc961171} was loaded during application startup.
+2024-07-12 00:51:51.526 +03:00 [INF] Now listening on: https://localhost:7125
+2024-07-12 00:51:51.528 +03:00 [INF] Now listening on: http://localhost:5005
+2024-07-12 00:51:51.530 +03:00 [DBG] Loaded hosting startup assembly SocialMediaApi
+2024-07-12 00:51:51.532 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-12 00:51:51.533 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-12 00:51:51.536 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-12 00:51:51.537 +03:00 [INF] Hosting environment: Development
+2024-07-12 00:51:51.539 +03:00 [INF] Content root path: D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi
+2024-07-12 00:51:51.541 +03:00 [DBG] Hosting started

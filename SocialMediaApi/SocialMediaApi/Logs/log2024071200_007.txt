@@ -1,0 +1,167 @@
+2024-07-12 00:54:00.639 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-12 00:54:01.933 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-12 00:54:01.937 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-12 00:54:01.937 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-12 00:54:02.213 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:54:02.213 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:54:02.579 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-12 00:54:02.701 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-12 00:54:02.701 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-12 00:54:02.702 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-12 00:54:02.712 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:54:02.712 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:54:03.271 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-12 00:54:24.016 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-12 00:54:24.900 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-12 00:54:24.907 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-12 00:54:24.908 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-12 00:54:25.081 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:54:25.082 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:54:25.325 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-12 00:54:25.376 +03:00 [DBG] Creating DbConnection.
+2024-07-12 00:54:25.457 +03:00 [DBG] Created DbConnection. (75ms).
+2024-07-12 00:54:25.461 +03:00 [DBG] Migrating using database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.469 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.716 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.726 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:54:25.736 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (9ms).
+2024-07-12 00:54:25.739 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (17ms).
+2024-07-12 00:54:25.750 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:54:25.785 +03:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:54:25.788 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.798 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (6ms).
+2024-07-12 00:54:25.801 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-07-12 00:54:25.801 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:54:25.802 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:54:25.802 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.803 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.803 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:54:25.823 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:54:25.824 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.824 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:54:25.826 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.826 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.826 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:54:25.826 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:54:25.826 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:54:25.826 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:54:25.828 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:54:25.829 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.829 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:54:25.829 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-07-12 00:54:25.829 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:54:25.829 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:54:25.829 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.829 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.829 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:54:25.830 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:54:25.830 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.830 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:54:25.853 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-12 00:54:25.854 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-07-12 00:54:25.854 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-07-12 00:54:25.854 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.854 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.855 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-07-12 00:54:25.957 +03:00 [INF] Executed DbCommand (103ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-07-12 00:54:25.962 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.964 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 4ms reading results.
+2024-07-12 00:54:25.965 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:25.965 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:54:26.007 +03:00 [INF] Applying migration '20240711215403_AddChat'.
+2024-07-12 00:54:26.173 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:26.173 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:26.177 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-07-12 00:54:26.195 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-07-12 00:54:26.197 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:54:26.197 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:54:26.207 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2024-07-12 00:54:26.207 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Posts] DROP CONSTRAINT [FK_Posts_AspNetUsers_UserId];
+2024-07-12 00:54:27.529 +03:00 [INF] Executed DbCommand (1,322ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Posts] DROP CONSTRAINT [FK_Posts_AspNetUsers_UserId];
+2024-07-12 00:54:27.530 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:54:27.530 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:54:27.530 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:54:27.530 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetUsers]
+WHERE [Id] = '9784f712-85af-4dec-97f0-e0f202fa131d';
+SELECT @@ROWCOUNT;
+2024-07-12 00:54:27.609 +03:00 [INF] Executed DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM [AspNetUsers]
+WHERE [Id] = '9784f712-85af-4dec-97f0-e0f202fa131d';
+SELECT @@ROWCOUNT;
+2024-07-12 00:54:27.609 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:54:27.609 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:54:27.610 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:54:27.610 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Chats] (
+    [Id] int NOT NULL IDENTITY,
+    [SenderId] uniqueidentifier NOT NULL,
+    [SenderUserId] uniqueidentifier NULL,
+    [ReceiverId] uniqueidentifier NOT NULL,
+    [ReceiverUserId] uniqueidentifier NULL,
+    CONSTRAINT [PK_Chats] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Chats_AspNetUsers_ReceiverUserId] FOREIGN KEY ([ReceiverUserId]) REFERENCES [AspNetUsers] ([Id]),
+    CONSTRAINT [FK_Chats_AspNetUsers_SenderUserId] FOREIGN KEY ([SenderUserId]) REFERENCES [AspNetUsers] ([Id])
+);
+2024-07-12 00:54:27.920 +03:00 [INF] Executed DbCommand (310ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Chats] (
+    [Id] int NOT NULL IDENTITY,
+    [SenderId] uniqueidentifier NOT NULL,
+    [SenderUserId] uniqueidentifier NULL,
+    [ReceiverId] uniqueidentifier NOT NULL,
+    [ReceiverUserId] uniqueidentifier NULL,
+    CONSTRAINT [PK_Chats] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Chats_AspNetUsers_ReceiverUserId] FOREIGN KEY ([ReceiverUserId]) REFERENCES [AspNetUsers] ([Id]),
+    CONSTRAINT [FK_Chats_AspNetUsers_SenderUserId] FOREIGN KEY ([SenderUserId]) REFERENCES [AspNetUsers] ([Id])
+);
+2024-07-12 00:54:27.920 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:54:27.920 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:54:27.920 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-07-12 00:54:27.921 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Messages] (
+    [Id] int NOT NULL IDENTITY,
+    [DateSent] datetime2 NOT NULL,
+    [Text] nvarchar(max) NULL,
+    [ChatId] int NOT NULL,
+    [SenderUserId] uniqueidentifier NOT NULL,
+    [ReceiverUserId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Messages] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Messages_AspNetUsers_ReceiverUserId] FOREIGN KEY ([ReceiverUserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Messages_AspNetUsers_SenderUserId] FOREIGN KEY ([SenderUserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Messages_Chats_ChatId] FOREIGN KEY ([ChatId]) REFERENCES [Chats] ([Id]) ON DELETE CASCADE
+);
+2024-07-12 00:54:27.995 +03:00 [ERR] Failed executing DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Messages] (
+    [Id] int NOT NULL IDENTITY,
+    [DateSent] datetime2 NOT NULL,
+    [Text] nvarchar(max) NULL,
+    [ChatId] int NOT NULL,
+    [SenderUserId] uniqueidentifier NOT NULL,
+    [ReceiverUserId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Messages] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Messages_AspNetUsers_ReceiverUserId] FOREIGN KEY ([ReceiverUserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Messages_AspNetUsers_SenderUserId] FOREIGN KEY ([SenderUserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Messages_Chats_ChatId] FOREIGN KEY ([ChatId]) REFERENCES [Chats] ([Id]) ON DELETE CASCADE
+);
+2024-07-12 00:54:27.997 +03:00 [DBG] Disposing transaction.
+2024-07-12 00:54:27.998 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:27.998 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:54:28.001 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-12 00:54:28.002 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:54:28.003 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).

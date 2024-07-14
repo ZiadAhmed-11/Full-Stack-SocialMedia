@@ -1,0 +1,32 @@
+2024-07-14 06:23:45.640 +03:00 [DBG] Connection id "0HN53L8SICIMU" received FIN.
+2024-07-14 06:23:45.657 +03:00 [DBG] Connection id "0HN53L8SICIMV" accepted.
+2024-07-14 06:23:46.308 +03:00 [DBG] Connection id "0HN53L8SICIMU" accepted.
+2024-07-14 06:23:46.308 +03:00 [DBG] Connection id "0HN53L8SICIMV" started.
+2024-07-14 06:23:46.310 +03:00 [DBG] Connection id "0HN53L8SICIMU" started.
+2024-07-14 06:23:46.313 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-14 06:23:46.324 +03:00 [DBG] Connection 0HN53L8SICIMV established using the following protocol: "Tls12"
+2024-07-14 06:23:46.602 +03:00 [DBG] Connection id "0HN53L8SICIMU" stopped.
+2024-07-14 06:23:46.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/index.html - -
+2024-07-14 06:23:46.625 +03:00 [DBG] Connection id "0HN53L8SICIMU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 06:23:46.649 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-14 06:23:46.652 +03:00 [DBG] Request did not match any endpoints
+2024-07-14 06:23:46.658 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-14 06:23:47.192 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-14 06:23:47.195 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/index.html - - - 200 - text/html;charset=utf-8 579.4904ms
+2024-07-14 06:23:47.691 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-07-14 06:23:47.703 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.6381ms
+2024-07-14 06:23:47.711 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-07-14 06:23:47.712 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 1.8309ms
+2024-07-14 06:23:48.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - -
+2024-07-14 06:23:48.366 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-14 06:23:48.367 +03:00 [DBG] Request did not match any endpoints
+2024-07-14 06:23:48.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 26.2251ms
+2024-07-14 06:24:21.866 +03:00 [DBG] Connection id "0HN53L8SICIMV" received FIN.
+2024-07-14 06:24:21.920 +03:00 [DBG] Connection id "0HN53L8SICIMV" is closed. The last processed stream ID was 7.
+2024-07-14 06:24:21.920 +03:00 [DBG] The connection queue processing loop for 0HN53L8SICIMV completed.
+2024-07-14 06:24:21.929 +03:00 [DBG] Connection id "0HN53L8SICIMV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 06:24:21.944 +03:00 [DBG] Connection id "0HN53L8SICIMV" stopped.

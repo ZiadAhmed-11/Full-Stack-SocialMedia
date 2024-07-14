@@ -1,0 +1,69 @@
+2024-07-12 00:52:35.339 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-12 00:52:36.362 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-12 00:52:36.365 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-12 00:52:36.365 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-12 00:52:36.580 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:52:36.581 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:52:36.809 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-12 00:52:36.912 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-12 00:52:36.912 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-12 00:52:36.912 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-12 00:52:36.930 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:52:36.931 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:52:37.148 +03:00 [DBG] Creating DbConnection.
+2024-07-12 00:52:37.196 +03:00 [DBG] Created DbConnection. (45ms).
+2024-07-12 00:52:37.200 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:52:37.476 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:52:37.484 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:52:37.492 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (7ms).
+2024-07-12 00:52:37.494 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (14ms).
+2024-07-12 00:52:37.502 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:52:37.533 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:52:37.536 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:52:37.548 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (8ms).
+2024-07-12 00:52:37.552 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-07-12 00:52:37.552 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:52:37.553 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:52:37.553 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:52:37.555 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:52:37.556 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:52:37.576 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:52:37.576 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:52:37.577 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:52:37.593 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-12 00:52:37.593 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-07-12 00:52:37.593 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-07-12 00:52:37.593 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:52:37.593 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:52:37.594 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-07-12 00:52:37.598 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-07-12 00:52:37.602 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:52:37.604 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 4ms reading results.
+2024-07-12 00:52:37.605 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:52:37.605 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:52:37.712 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-12 00:52:37.714 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:52:37.715 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-07-12 00:52:58.384 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-12 00:52:59.392 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-12 00:52:59.395 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-12 00:52:59.395 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-12 00:52:59.597 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:52:59.598 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:52:59.883 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-12 00:52:59.957 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-12 00:52:59.957 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-12 00:52:59.958 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-12 00:52:59.965 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:52:59.965 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:53:00.461 +03:00 [DBG] 'AppDbContext' disposed.

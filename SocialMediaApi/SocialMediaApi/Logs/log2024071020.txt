@@ -1,0 +1,756 @@
+2024-07-10 20:17:20.454 +03:00 [DBG] debug-messages
+2024-07-10 20:17:20.501 +03:00 [INF] Information-messages
+2024-07-10 20:17:20.503 +03:00 [WRN] warning-messages
+2024-07-10 20:17:20.505 +03:00 [ERR] error-messages
+2024-07-10 20:17:20.506 +03:00 [FTL] critical-messages
+2024-07-10 20:17:20.870 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-10 20:17:20.988 +03:00 [DBG] Hosting starting
+2024-07-10 20:17:21.019 +03:00 [INF] User profile is available. Using 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-10 20:17:21.027 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5.xml'.
+2024-07-10 20:17:21.036 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-0a228ab3-8951-46e7-a96d-23771960201b.xml'.
+2024-07-10 20:17:21.039 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-245c0a72-8b3f-4865-a8f3-044c8465e7ce.xml'.
+2024-07-10 20:17:21.041 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-9e24c8a4-8c0a-4b11-8441-7806fc961171.xml'.
+2024-07-10 20:17:21.043 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-f8bc08b4-5662-407f-9999-ef927521d255.xml'.
+2024-07-10 20:17:21.054 +03:00 [DBG] Found key {00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5}.
+2024-07-10 20:17:21.062 +03:00 [DBG] Found key {0a228ab3-8951-46e7-a96d-23771960201b}.
+2024-07-10 20:17:21.064 +03:00 [DBG] Found key {245c0a72-8b3f-4865-a8f3-044c8465e7ce}.
+2024-07-10 20:17:21.066 +03:00 [DBG] Found key {9e24c8a4-8c0a-4b11-8441-7806fc961171}.
+2024-07-10 20:17:21.067 +03:00 [DBG] Found key {f8bc08b4-5662-407f-9999-ef927521d255}.
+2024-07-10 20:17:21.081 +03:00 [DBG] Considering key {9e24c8a4-8c0a-4b11-8441-7806fc961171} with expiration date 2024-08-18 11:19:54Z as default key.
+2024-07-10 20:17:21.088 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-10 20:17:21.096 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-07-10 20:17:21.100 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-10 20:17:21.110 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-07-10 20:17:21.120 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-07-10 20:17:21.130 +03:00 [DBG] Using key {9e24c8a4-8c0a-4b11-8441-7806fc961171} as the default key.
+2024-07-10 20:17:21.132 +03:00 [DBG] Key ring with default key {9e24c8a4-8c0a-4b11-8441-7806fc961171} was loaded during application startup.
+2024-07-10 20:17:21.321 +03:00 [INF] Now listening on: https://localhost:7125
+2024-07-10 20:17:21.322 +03:00 [INF] Now listening on: http://localhost:5005
+2024-07-10 20:17:21.325 +03:00 [DBG] Loaded hosting startup assembly SocialMediaApi
+2024-07-10 20:17:21.326 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-10 20:17:21.328 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-10 20:17:21.329 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-10 20:17:21.330 +03:00 [INF] Hosting environment: Development
+2024-07-10 20:17:21.332 +03:00 [INF] Content root path: D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi
+2024-07-10 20:17:21.333 +03:00 [DBG] Hosting started
+2024-07-10 20:17:21.644 +03:00 [DBG] Connection id "0HN510GKD0BBI" received FIN.
+2024-07-10 20:17:21.644 +03:00 [DBG] Connection id "0HN510GKD0BBH" received FIN.
+2024-07-10 20:17:21.654 +03:00 [DBG] Connection id "0HN510GKD0BBH" accepted.
+2024-07-10 20:17:21.654 +03:00 [DBG] Connection id "0HN510GKD0BBI" accepted.
+2024-07-10 20:17:21.658 +03:00 [DBG] Connection id "0HN510GKD0BBH" started.
+2024-07-10 20:17:21.658 +03:00 [DBG] Connection id "0HN510GKD0BBI" started.
+2024-07-10 20:17:21.675 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-10 20:17:21.675 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-10 20:17:21.698 +03:00 [DBG] Connection id "0HN510GKD0BBH" stopped.
+2024-07-10 20:17:21.698 +03:00 [DBG] Connection id "0HN510GKD0BBI" stopped.
+2024-07-10 20:17:21.704 +03:00 [DBG] Connection id "0HN510GKD0BBI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:17:21.704 +03:00 [DBG] Connection id "0HN510GKD0BBH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:17:21.960 +03:00 [DBG] Connection id "0HN510GKD0BBJ" accepted.
+2024-07-10 20:17:21.975 +03:00 [DBG] Connection id "0HN510GKD0BBJ" started.
+2024-07-10 20:17:22.278 +03:00 [DBG] Connection 0HN510GKD0BBJ established using the following protocol: "Tls12"
+2024-07-10 20:17:22.362 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/index.html - -
+2024-07-10 20:17:22.525 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-10 20:17:22.590 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-10 20:17:22.593 +03:00 [DBG] Request did not match any endpoints
+2024-07-10 20:17:22.800 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-10 20:17:22.849 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-10 20:17:22.906 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/index.html - - - 200 - text/html;charset=utf-8 545.6015ms
+2024-07-10 20:17:22.915 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-07-10 20:17:22.922 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-07-10 20:17:22.947 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 25.6090ms
+2024-07-10 20:17:23.075 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 159.3403ms
+2024-07-10 20:17:23.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - -
+2024-07-10 20:17:23.275 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-10 20:17:23.276 +03:00 [DBG] Request did not match any endpoints
+2024-07-10 20:17:23.857 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 583.6112ms
+2024-07-10 20:17:24.225 +03:00 [DBG] Connection id "0HN510GKD0BBJ" received FIN.
+2024-07-10 20:17:24.231 +03:00 [DBG] The connection queue processing loop for 0HN510GKD0BBJ completed.
+2024-07-10 20:17:24.236 +03:00 [DBG] Connection id "0HN510GKD0BBJ" is closed. The last processed stream ID was 7.
+2024-07-10 20:17:24.240 +03:00 [DBG] Connection id "0HN510GKD0BBJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:17:24.244 +03:00 [DBG] Connection id "0HN510GKD0BBJ" stopped.
+2024-07-10 20:22:58.410 +03:00 [DBG] Connection id "0HN510GKD0BBK" accepted.
+2024-07-10 20:22:58.412 +03:00 [DBG] Connection id "0HN510GKD0BBK" received FIN.
+2024-07-10 20:22:58.413 +03:00 [DBG] Connection id "0HN510GKD0BBK" started.
+2024-07-10 20:22:58.414 +03:00 [DBG] Connection id "0HN510GKD0BBL" accepted.
+2024-07-10 20:22:58.417 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-10 20:22:58.419 +03:00 [DBG] Connection id "0HN510GKD0BBL" started.
+2024-07-10 20:22:58.424 +03:00 [DBG] Connection id "0HN510GKD0BBK" stopped.
+2024-07-10 20:22:58.427 +03:00 [DBG] Connection id "0HN510GKD0BBK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:22:58.479 +03:00 [DBG] Connection 0HN510GKD0BBL established using the following protocol: "Tls12"
+2024-07-10 20:22:58.499 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7125/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88
+2024-07-10 20:22:58.509 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b'
+2024-07-10 20:22:58.512 +03:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2024-07-10 20:22:58.516 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-10 20:22:58.538 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-10 20:22:58.544 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-07-10 20:22:58.546 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-07-10 20:22:58.554 +03:00 [DBG] Connection id "0HN510GKD0BBL" completed keep alive response.
+2024-07-10 20:22:58.556 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7125/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88 - 405 0 - 56.4280ms
+2024-07-10 20:22:58.559 +03:00 [DBG] Connection id "0HN510GKD0BBL", Request id "0HN510GKD0BBL:00000001": started reading request body.
+2024-07-10 20:22:58.560 +03:00 [DBG] Connection id "0HN510GKD0BBL", Request id "0HN510GKD0BBL:00000001": done reading request body.
+2024-07-10 20:23:03.712 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7125/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88
+2024-07-10 20:23:03.716 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b'
+2024-07-10 20:23:03.726 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)' with route pattern 'api/Post/user/{userId}' is valid for the request path '/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b'
+2024-07-10 20:23:03.730 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:23:03.731 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-10 20:23:03.737 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-10 20:23:03.740 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:23:03.792 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:23:03.795 +03:00 [ERR] An error occurred.
+System.InvalidCastException: Unable to cast object of type 'SocialMediaApi.Filters.ActionFilters.UserPostsListActionFilter' to type 'Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata'.
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 56
+2024-07-10 20:23:03.860 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to cast object of type 'SocialMediaApi.Filters.ActionFilters.UserPostsListActionFilter' to type 'Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata'.
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 56
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-10 20:23:03.884 +03:00 [DBG] Connection id "0HN510GKD0BBL" completed keep alive response.
+2024-07-10 20:23:03.887 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7125/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88 - 500 - text/plain;+charset=utf-8 175.7233ms
+2024-07-10 20:23:03.889 +03:00 [DBG] Connection id "0HN510GKD0BBL", Request id "0HN510GKD0BBL:00000002": started reading request body.
+2024-07-10 20:23:03.892 +03:00 [DBG] Connection id "0HN510GKD0BBL", Request id "0HN510GKD0BBL:00000002": done reading request body.
+2024-07-10 20:23:20.440 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7125/api/Post/user/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88
+2024-07-10 20:23:20.442 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Post/user/47b857e8-3a0e-422f-a560-99b4a0fcf61b'
+2024-07-10 20:23:20.443 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)' with route pattern 'api/Post/user/{userId}' is valid for the request path '/api/Post/user/47b857e8-3a0e-422f-a560-99b4a0fcf61b'
+2024-07-10 20:23:20.447 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:23:20.449 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-10 20:23:20.457 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-10 20:23:20.458 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:23:20.461 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:23:20.463 +03:00 [ERR] An error occurred.
+System.InvalidCastException: Unable to cast object of type 'SocialMediaApi.Filters.ActionFilters.UserPostsListActionFilter' to type 'Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata'.
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 56
+2024-07-10 20:23:20.476 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to cast object of type 'SocialMediaApi.Filters.ActionFilters.UserPostsListActionFilter' to type 'Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata'.
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 56
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-10 20:23:20.491 +03:00 [DBG] Connection id "0HN510GKD0BBL" completed keep alive response.
+2024-07-10 20:23:20.493 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7125/api/Post/user/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88 - 500 - text/plain;+charset=utf-8 53.3613ms
+2024-07-10 20:23:20.495 +03:00 [DBG] Connection id "0HN510GKD0BBL", Request id "0HN510GKD0BBL:00000003": started reading request body.
+2024-07-10 20:23:20.497 +03:00 [DBG] Connection id "0HN510GKD0BBL", Request id "0HN510GKD0BBL:00000003": done reading request body.
+2024-07-10 20:23:40.987 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7125/api/Post/user/{47b857e8-3a0e-422f-a560-99b4a0fcf61b} application/json 88
+2024-07-10 20:23:40.989 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Post/user/{47b857e8-3a0e-422f-a560-99b4a0fcf61b}'
+2024-07-10 20:23:40.990 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)' with route pattern 'api/Post/user/{userId}' is valid for the request path '/api/Post/user/{47b857e8-3a0e-422f-a560-99b4a0fcf61b}'
+2024-07-10 20:23:40.993 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:23:40.994 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-10 20:23:40.996 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-10 20:23:40.997 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:23:40.999 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:23:41.001 +03:00 [ERR] An error occurred.
+System.InvalidCastException: Unable to cast object of type 'SocialMediaApi.Filters.ActionFilters.UserPostsListActionFilter' to type 'Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata'.
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 56
+2024-07-10 20:23:41.013 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to cast object of type 'SocialMediaApi.Filters.ActionFilters.UserPostsListActionFilter' to type 'Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata'.
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 56
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-10 20:23:41.026 +03:00 [DBG] Connection id "0HN510GKD0BBL" completed keep alive response.
+2024-07-10 20:23:41.028 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7125/api/Post/user/{47b857e8-3a0e-422f-a560-99b4a0fcf61b} application/json 88 - 500 - text/plain;+charset=utf-8 40.7278ms
+2024-07-10 20:23:41.029 +03:00 [DBG] Connection id "0HN510GKD0BBL", Request id "0HN510GKD0BBL:00000004": started reading request body.
+2024-07-10 20:23:41.031 +03:00 [DBG] Connection id "0HN510GKD0BBL", Request id "0HN510GKD0BBL:00000004": done reading request body.
+2024-07-10 20:23:54.629 +03:00 [DBG] Connection id "0HN510GKD0BBM" accepted.
+2024-07-10 20:23:54.629 +03:00 [DBG] Connection id "0HN510GKD0BBM" received FIN.
+2024-07-10 20:23:54.631 +03:00 [DBG] Connection id "0HN510GKD0BBM" started.
+2024-07-10 20:23:54.635 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-10 20:23:54.640 +03:00 [DBG] Connection id "0HN510GKD0BBM" stopped.
+2024-07-10 20:23:54.642 +03:00 [DBG] Connection id "0HN510GKD0BBM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:23:54.647 +03:00 [DBG] Connection id "0HN510GKD0BBN" accepted.
+2024-07-10 20:23:54.650 +03:00 [DBG] Connection id "0HN510GKD0BBN" started.
+2024-07-10 20:23:54.680 +03:00 [DBG] Connection 0HN510GKD0BBN established using the following protocol: "Tls12"
+2024-07-10 20:23:54.685 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/index.html - -
+2024-07-10 20:23:54.728 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-10 20:23:54.729 +03:00 [DBG] Request did not match any endpoints
+2024-07-10 20:23:54.731 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-10 20:23:54.735 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-10 20:23:54.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/index.html - - - 200 - text/html;charset=utf-8 53.0783ms
+2024-07-10 20:23:54.764 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-07-10 20:23:54.788 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-07-10 20:23:54.792 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.9953ms
+2024-07-10 20:23:54.818 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.8778ms
+2024-07-10 20:23:55.412 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - -
+2024-07-10 20:23:55.414 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-10 20:23:55.415 +03:00 [DBG] Request did not match any endpoints
+2024-07-10 20:23:55.433 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 21.2715ms
+2024-07-10 20:23:59.807 +03:00 [DBG] Connection id "0HN510GKD0BBN" received FIN.
+2024-07-10 20:23:59.810 +03:00 [DBG] Connection id "0HN510GKD0BBN" is closed. The last processed stream ID was 7.
+2024-07-10 20:23:59.811 +03:00 [DBG] The connection queue processing loop for 0HN510GKD0BBN completed.
+2024-07-10 20:23:59.828 +03:00 [DBG] Connection id "0HN510GKD0BBN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:23:59.832 +03:00 [DBG] Connection id "0HN510GKD0BBN" stopped.
+2024-07-10 20:24:19.005 +03:00 [DBG] debug-messages
+2024-07-10 20:24:19.052 +03:00 [INF] Information-messages
+2024-07-10 20:24:19.054 +03:00 [WRN] warning-messages
+2024-07-10 20:24:19.055 +03:00 [ERR] error-messages
+2024-07-10 20:24:19.056 +03:00 [FTL] critical-messages
+2024-07-10 20:24:19.150 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-10 20:24:19.414 +03:00 [DBG] Hosting starting
+2024-07-10 20:24:19.442 +03:00 [INF] User profile is available. Using 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-10 20:24:19.449 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5.xml'.
+2024-07-10 20:24:19.458 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-0a228ab3-8951-46e7-a96d-23771960201b.xml'.
+2024-07-10 20:24:19.460 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-245c0a72-8b3f-4865-a8f3-044c8465e7ce.xml'.
+2024-07-10 20:24:19.463 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-9e24c8a4-8c0a-4b11-8441-7806fc961171.xml'.
+2024-07-10 20:24:19.466 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-f8bc08b4-5662-407f-9999-ef927521d255.xml'.
+2024-07-10 20:24:19.473 +03:00 [DBG] Found key {00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5}.
+2024-07-10 20:24:19.480 +03:00 [DBG] Found key {0a228ab3-8951-46e7-a96d-23771960201b}.
+2024-07-10 20:24:19.482 +03:00 [DBG] Found key {245c0a72-8b3f-4865-a8f3-044c8465e7ce}.
+2024-07-10 20:24:19.485 +03:00 [DBG] Found key {9e24c8a4-8c0a-4b11-8441-7806fc961171}.
+2024-07-10 20:24:19.487 +03:00 [DBG] Found key {f8bc08b4-5662-407f-9999-ef927521d255}.
+2024-07-10 20:24:19.500 +03:00 [DBG] Considering key {9e24c8a4-8c0a-4b11-8441-7806fc961171} with expiration date 2024-08-18 11:19:54Z as default key.
+2024-07-10 20:24:19.506 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-10 20:24:19.512 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-07-10 20:24:19.516 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-10 20:24:19.525 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-07-10 20:24:19.533 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-07-10 20:24:19.540 +03:00 [DBG] Using key {9e24c8a4-8c0a-4b11-8441-7806fc961171} as the default key.
+2024-07-10 20:24:19.543 +03:00 [DBG] Key ring with default key {9e24c8a4-8c0a-4b11-8441-7806fc961171} was loaded during application startup.
+2024-07-10 20:24:19.768 +03:00 [INF] Now listening on: https://localhost:7125
+2024-07-10 20:24:19.813 +03:00 [INF] Now listening on: http://localhost:5005
+2024-07-10 20:24:19.817 +03:00 [DBG] Loaded hosting startup assembly SocialMediaApi
+2024-07-10 20:24:19.822 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-10 20:24:19.824 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-10 20:24:19.827 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-10 20:24:19.830 +03:00 [INF] Hosting environment: Development
+2024-07-10 20:24:19.833 +03:00 [INF] Content root path: D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi
+2024-07-10 20:24:19.835 +03:00 [DBG] Hosting started
+2024-07-10 20:24:20.201 +03:00 [DBG] Connection id "0HN510KH4LT42" accepted.
+2024-07-10 20:24:20.204 +03:00 [DBG] Connection id "0HN510KH4LT43" accepted.
+2024-07-10 20:24:20.205 +03:00 [DBG] Connection id "0HN510KH4LT42" started.
+2024-07-10 20:24:20.206 +03:00 [DBG] Connection id "0HN510KH4LT43" started.
+2024-07-10 20:24:20.213 +03:00 [DBG] Connection id "0HN510KH4LT42" received FIN.
+2024-07-10 20:24:20.216 +03:00 [DBG] Connection id "0HN510KH4LT43" received FIN.
+2024-07-10 20:24:20.229 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-10 20:24:20.229 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-10 20:24:20.256 +03:00 [DBG] Connection id "0HN510KH4LT44" accepted.
+2024-07-10 20:24:20.256 +03:00 [DBG] Connection id "0HN510KH4LT42" stopped.
+2024-07-10 20:24:20.256 +03:00 [DBG] Connection id "0HN510KH4LT43" stopped.
+2024-07-10 20:24:20.277 +03:00 [DBG] Connection id "0HN510KH4LT44" started.
+2024-07-10 20:24:20.285 +03:00 [DBG] Connection id "0HN510KH4LT42" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:24:20.285 +03:00 [DBG] Connection id "0HN510KH4LT43" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:24:20.389 +03:00 [DBG] Connection 0HN510KH4LT44 established using the following protocol: "Tls12"
+2024-07-10 20:24:20.458 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/index.html - -
+2024-07-10 20:24:20.567 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-10 20:24:20.608 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-10 20:24:20.611 +03:00 [DBG] Request did not match any endpoints
+2024-07-10 20:24:20.881 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-10 20:24:20.920 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-10 20:24:20.927 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/index.html - - - 200 - text/html;charset=utf-8 471.1713ms
+2024-07-10 20:24:20.941 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-07-10 20:24:20.941 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-07-10 20:24:20.952 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 9.5765ms
+2024-07-10 20:24:21.008 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.7755ms
+2024-07-10 20:24:21.830 +03:00 [DBG] Connection id "0HN510KH4LT45" accepted.
+2024-07-10 20:24:21.833 +03:00 [DBG] Connection id "0HN510KH4LT45" received FIN.
+2024-07-10 20:24:21.835 +03:00 [DBG] Connection id "0HN510KH4LT46" accepted.
+2024-07-10 20:24:21.836 +03:00 [DBG] Connection id "0HN510KH4LT45" started.
+2024-07-10 20:24:21.839 +03:00 [DBG] Connection id "0HN510KH4LT46" started.
+2024-07-10 20:24:21.841 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-10 20:24:21.846 +03:00 [DBG] Connection id "0HN510KH4LT45" stopped.
+2024-07-10 20:24:21.851 +03:00 [DBG] Connection id "0HN510KH4LT45" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:24:21.854 +03:00 [DBG] Connection 0HN510KH4LT46 established using the following protocol: "Tls12"
+2024-07-10 20:24:21.874 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7125/api/Post/user/{47b857e8-3a0e-422f-a560-99b4a0fcf61b} application/json 88
+2024-07-10 20:24:21.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - -
+2024-07-10 20:24:21.914 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-10 20:24:21.919 +03:00 [DBG] Request did not match any endpoints
+2024-07-10 20:24:21.922 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Post/user/{47b857e8-3a0e-422f-a560-99b4a0fcf61b}'
+2024-07-10 20:24:21.930 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)' with route pattern 'api/Post/user/{userId}' is valid for the request path '/api/Post/user/{47b857e8-3a0e-422f-a560-99b4a0fcf61b}'
+2024-07-10 20:24:21.937 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:24:21.942 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-10 20:24:21.968 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-10 20:24:21.974 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:24:22.046 +03:00 [INF] Route matched with {action = "GetAllPostsOfUser", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[SocialMedia.Data.Models.Post]]] GetAllPostsOfUser(System.Guid) on controller SocialMediaApi.Controllers.PostController (SocialMediaApi).
+2024-07-10 20:24:22.054 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-07-10 20:24:22.057 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-07-10 20:24:22.059 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-07-10 20:24:22.062 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-07-10 20:24:22.066 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-07-10 20:24:22.079 +03:00 [DBG] Executing controller factory for controller SocialMediaApi.Controllers.PostController (SocialMediaApi)
+2024-07-10 20:24:22.234 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 321.4712ms
+2024-07-10 20:24:22.632 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-10 20:24:22.705 +03:00 [DBG] Executed controller factory for controller SocialMediaApi.Controllers.PostController (SocialMediaApi)
+2024-07-10 20:24:22.719 +03:00 [DBG] Attempting to bind parameter 'userId' of type 'System.Guid' ...
+2024-07-10 20:24:22.724 +03:00 [DBG] Attempting to bind parameter 'userId' of type 'System.Guid' using the name 'userId' in request data ...
+2024-07-10 20:24:22.728 +03:00 [DBG] Done attempting to bind parameter 'userId' of type 'System.Guid'.
+2024-07-10 20:24:22.731 +03:00 [DBG] Done attempting to bind parameter 'userId' of type 'System.Guid'.
+2024-07-10 20:24:22.733 +03:00 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Guid' ...
+2024-07-10 20:24:22.739 +03:00 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Guid'.
+2024-07-10 20:24:23.812 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-10 20:24:23.816 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-10 20:24:23.820 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-10 20:24:24.453 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-10 20:24:24.588 +03:00 [DBG] Compiling query expression: 
+'DbSet<Post>()
+    .Where(p => p.UserId == __userId_0)'
+2024-07-10 20:24:24.902 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Post>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Post.PostId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Post.ContentUrl (string), 1], [Property: Post.CreatedAt (DateTime?) Required, 2], [Property: Post.PostDescription (string), 3], [Property: Post.UpdatedAt (DateTime?) Required, 4], [Property: Post.UserId (Guid) Required FK Index, 5] }
+        SELECT p.PostId, p.ContentUrl, p.CreatedAt, p.PostDescription, p.UpdatedAt, p.UserId
+        FROM Posts AS p
+        WHERE p.UserId == @__userId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Post>, 
+    SocialMedia.Data.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-07-10 20:24:24.976 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-10 20:24:24.979 +03:00 [DBG] Creating DbConnection.
+2024-07-10 20:24:25.059 +03:00 [DBG] Created DbConnection. (76ms).
+2024-07-10 20:24:25.071 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (105ms).
+2024-07-10 20:24:25.088 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (125ms).
+2024-07-10 20:24:25.095 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:25.539 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:25.553 +03:00 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PostId], [p].[ContentUrl], [p].[CreatedAt], [p].[PostDescription], [p].[UpdatedAt], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] = @__userId_0
+2024-07-10 20:24:25.718 +03:00 [INF] Executed DbCommand (167ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PostId], [p].[ContentUrl], [p].[CreatedAt], [p].[PostDescription], [p].[UpdatedAt], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] = @__userId_0
+2024-07-10 20:24:25.793 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:25.830 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:25.835 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:25.838 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:25.840 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:25.842 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:25.844 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:25.846 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:25.849 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:25.852 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:25.859 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:25.871 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 139ms reading results.
+2024-07-10 20:24:25.878 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:25.889 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (10ms).
+2024-07-10 20:24:25.897 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-07-10 20:24:25.903 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-07-10 20:24:25.905 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-10 20:24:25.907 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-10 20:24:25.910 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-10 20:24:25.913 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SocialMedia.Data.Models.Post, SocialMedia.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-10 20:24:25.956 +03:00 [INF] Executed action SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi) in 3882.8086ms
+2024-07-10 20:24:25.960 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:24:25.962 +03:00 [DBG] Connection id "0HN510KH4LT46" completed keep alive response.
+2024-07-10 20:24:25.970 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-10 20:24:25.984 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:25.994 +03:00 [DBG] Disposed connection to database '' on server '' (9ms).
+2024-07-10 20:24:26.009 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7125/api/Post/user/{47b857e8-3a0e-422f-a560-99b4a0fcf61b} application/json 88 - 200 - application/json;+charset=utf-8 4135.2555ms
+2024-07-10 20:24:26.014 +03:00 [DBG] Connection id "0HN510KH4LT46", Request id "0HN510KH4LT46:00000001": started reading request body.
+2024-07-10 20:24:26.020 +03:00 [DBG] Connection id "0HN510KH4LT46", Request id "0HN510KH4LT46:00000001": done reading request body.
+2024-07-10 20:24:29.843 +03:00 [DBG] Connection id "0HN510KH4LT44" received FIN.
+2024-07-10 20:24:29.847 +03:00 [DBG] The connection queue processing loop for 0HN510KH4LT44 completed.
+2024-07-10 20:24:29.847 +03:00 [DBG] Connection id "0HN510KH4LT44" is closed. The last processed stream ID was 7.
+2024-07-10 20:24:29.851 +03:00 [DBG] Connection id "0HN510KH4LT44" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:24:29.859 +03:00 [DBG] Connection id "0HN510KH4LT44" stopped.
+2024-07-10 20:24:38.322 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7125/api/Post/user/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88
+2024-07-10 20:24:38.325 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Post/user/47b857e8-3a0e-422f-a560-99b4a0fcf61b'
+2024-07-10 20:24:38.327 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)' with route pattern 'api/Post/user/{userId}' is valid for the request path '/api/Post/user/47b857e8-3a0e-422f-a560-99b4a0fcf61b'
+2024-07-10 20:24:38.333 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:24:38.335 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-10 20:24:38.340 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-10 20:24:38.342 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:24:38.344 +03:00 [INF] Route matched with {action = "GetAllPostsOfUser", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[SocialMedia.Data.Models.Post]]] GetAllPostsOfUser(System.Guid) on controller SocialMediaApi.Controllers.PostController (SocialMediaApi).
+2024-07-10 20:24:38.349 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-07-10 20:24:38.351 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-07-10 20:24:38.354 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-07-10 20:24:38.357 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-07-10 20:24:38.359 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-07-10 20:24:38.362 +03:00 [DBG] Executing controller factory for controller SocialMediaApi.Controllers.PostController (SocialMediaApi)
+2024-07-10 20:24:38.368 +03:00 [DBG] Executed controller factory for controller SocialMediaApi.Controllers.PostController (SocialMediaApi)
+2024-07-10 20:24:38.370 +03:00 [DBG] Attempting to bind parameter 'userId' of type 'System.Guid' ...
+2024-07-10 20:24:38.373 +03:00 [DBG] Attempting to bind parameter 'userId' of type 'System.Guid' using the name 'userId' in request data ...
+2024-07-10 20:24:38.375 +03:00 [DBG] Done attempting to bind parameter 'userId' of type 'System.Guid'.
+2024-07-10 20:24:38.377 +03:00 [DBG] Done attempting to bind parameter 'userId' of type 'System.Guid'.
+2024-07-10 20:24:38.379 +03:00 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Guid' ...
+2024-07-10 20:24:38.382 +03:00 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Guid'.
+2024-07-10 20:24:38.408 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-10 20:24:38.417 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-10 20:24:38.419 +03:00 [DBG] Creating DbConnection.
+2024-07-10 20:24:38.420 +03:00 [DBG] Created DbConnection. (1ms).
+2024-07-10 20:24:38.422 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-07-10 20:24:38.424 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2024-07-10 20:24:38.425 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:38.429 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:38.432 +03:00 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PostId], [p].[ContentUrl], [p].[CreatedAt], [p].[PostDescription], [p].[UpdatedAt], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] = @__userId_0
+2024-07-10 20:24:38.438 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PostId], [p].[ContentUrl], [p].[CreatedAt], [p].[PostDescription], [p].[UpdatedAt], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] = @__userId_0
+2024-07-10 20:24:38.443 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:38.445 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:38.449 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:38.451 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:38.453 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:38.455 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:38.458 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:38.460 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:38.462 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:38.465 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:38.467 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:38.470 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 27ms reading results.
+2024-07-10 20:24:38.474 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:38.476 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (2ms).
+2024-07-10 20:24:38.479 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-07-10 20:24:38.485 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-07-10 20:24:38.486 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-10 20:24:38.487 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-10 20:24:38.490 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-10 20:24:38.492 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SocialMedia.Data.Models.Post, SocialMedia.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-10 20:24:38.495 +03:00 [INF] Executed action SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi) in 133.2449ms
+2024-07-10 20:24:38.500 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:24:38.502 +03:00 [DBG] Connection id "0HN510KH4LT46" completed keep alive response.
+2024-07-10 20:24:38.504 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-10 20:24:38.507 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:38.512 +03:00 [DBG] Disposed connection to database '' on server '' (3ms).
+2024-07-10 20:24:38.517 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7125/api/Post/user/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88 - 200 - application/json;+charset=utf-8 194.6367ms
+2024-07-10 20:24:38.519 +03:00 [DBG] Connection id "0HN510KH4LT46", Request id "0HN510KH4LT46:00000002": started reading request body.
+2024-07-10 20:24:38.522 +03:00 [DBG] Connection id "0HN510KH4LT46", Request id "0HN510KH4LT46:00000002": done reading request body.
+2024-07-10 20:24:43.753 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7125/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88
+2024-07-10 20:24:43.755 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b'
+2024-07-10 20:24:43.757 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)' with route pattern 'api/Post/user/{userId}' is valid for the request path '/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b'
+2024-07-10 20:24:43.761 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:24:43.764 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-10 20:24:43.770 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-10 20:24:43.773 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:24:43.775 +03:00 [INF] Route matched with {action = "GetAllPostsOfUser", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[SocialMedia.Data.Models.Post]]] GetAllPostsOfUser(System.Guid) on controller SocialMediaApi.Controllers.PostController (SocialMediaApi).
+2024-07-10 20:24:43.779 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-07-10 20:24:43.783 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-07-10 20:24:43.786 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-07-10 20:24:43.789 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-07-10 20:24:43.792 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-07-10 20:24:43.795 +03:00 [DBG] Executing controller factory for controller SocialMediaApi.Controllers.PostController (SocialMediaApi)
+2024-07-10 20:24:43.803 +03:00 [DBG] Executed controller factory for controller SocialMediaApi.Controllers.PostController (SocialMediaApi)
+2024-07-10 20:24:43.806 +03:00 [DBG] Attempting to bind parameter 'userId' of type 'System.Guid' ...
+2024-07-10 20:24:43.808 +03:00 [DBG] Attempting to bind parameter 'userId' of type 'System.Guid' using the name 'userId' in request data ...
+2024-07-10 20:24:43.810 +03:00 [DBG] Done attempting to bind parameter 'userId' of type 'System.Guid'.
+2024-07-10 20:24:43.812 +03:00 [DBG] Done attempting to bind parameter 'userId' of type 'System.Guid'.
+2024-07-10 20:24:43.815 +03:00 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Guid' ...
+2024-07-10 20:24:43.819 +03:00 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Guid'.
+2024-07-10 20:24:43.920 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-10 20:24:43.926 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-10 20:24:43.927 +03:00 [DBG] Creating DbConnection.
+2024-07-10 20:24:43.929 +03:00 [DBG] Created DbConnection. (1ms).
+2024-07-10 20:24:43.932 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2024-07-10 20:24:43.934 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2024-07-10 20:24:43.936 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:43.938 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:43.940 +03:00 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PostId], [p].[ContentUrl], [p].[CreatedAt], [p].[PostDescription], [p].[UpdatedAt], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] = @__userId_0
+2024-07-10 20:24:43.948 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PostId], [p].[ContentUrl], [p].[CreatedAt], [p].[PostDescription], [p].[UpdatedAt], [p].[UserId]
+FROM [Posts] AS [p]
+WHERE [p].[UserId] = @__userId_0
+2024-07-10 20:24:43.953 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:43.957 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:43.959 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:43.962 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:43.965 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:43.967 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:43.970 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:43.973 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:43.977 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:43.979 +03:00 [DBG] Context 'AppDbContext' started tracking 'Post' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-10 20:24:43.984 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:43.986 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 33ms reading results.
+2024-07-10 20:24:43.989 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:43.991 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (2ms).
+2024-07-10 20:24:43.993 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-07-10 20:24:43.998 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-07-10 20:24:44.000 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-10 20:24:44.001 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-10 20:24:44.003 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-10 20:24:44.005 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SocialMedia.Data.Models.Post, SocialMedia.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-10 20:24:44.008 +03:00 [INF] Executed action SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi) in 212.8538ms
+2024-07-10 20:24:44.010 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:24:44.012 +03:00 [DBG] Connection id "0HN510KH4LT46" completed keep alive response.
+2024-07-10 20:24:44.016 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-10 20:24:44.017 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-10 20:24:44.019 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-07-10 20:24:44.021 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7125/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88 - 200 - application/json;+charset=utf-8 268.3024ms
+2024-07-10 20:24:44.023 +03:00 [DBG] Connection id "0HN510KH4LT46", Request id "0HN510KH4LT46:00000003": started reading request body.
+2024-07-10 20:24:44.025 +03:00 [DBG] Connection id "0HN510KH4LT46", Request id "0HN510KH4LT46:00000003": done reading request body.
+2024-07-10 20:24:57.945 +03:00 [DBG] debug-messages
+2024-07-10 20:24:58.018 +03:00 [INF] Information-messages
+2024-07-10 20:24:58.020 +03:00 [WRN] warning-messages
+2024-07-10 20:24:58.021 +03:00 [ERR] error-messages
+2024-07-10 20:24:58.023 +03:00 [FTL] critical-messages
+2024-07-10 20:24:58.113 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-10 20:24:58.183 +03:00 [DBG] Hosting starting
+2024-07-10 20:24:58.203 +03:00 [INF] User profile is available. Using 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-10 20:24:58.208 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5.xml'.
+2024-07-10 20:24:58.216 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-0a228ab3-8951-46e7-a96d-23771960201b.xml'.
+2024-07-10 20:24:58.219 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-245c0a72-8b3f-4865-a8f3-044c8465e7ce.xml'.
+2024-07-10 20:24:58.222 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-9e24c8a4-8c0a-4b11-8441-7806fc961171.xml'.
+2024-07-10 20:24:58.224 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-f8bc08b4-5662-407f-9999-ef927521d255.xml'.
+2024-07-10 20:24:58.234 +03:00 [DBG] Found key {00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5}.
+2024-07-10 20:24:58.243 +03:00 [DBG] Found key {0a228ab3-8951-46e7-a96d-23771960201b}.
+2024-07-10 20:24:58.246 +03:00 [DBG] Found key {245c0a72-8b3f-4865-a8f3-044c8465e7ce}.
+2024-07-10 20:24:58.250 +03:00 [DBG] Found key {9e24c8a4-8c0a-4b11-8441-7806fc961171}.
+2024-07-10 20:24:58.253 +03:00 [DBG] Found key {f8bc08b4-5662-407f-9999-ef927521d255}.
+2024-07-10 20:24:58.269 +03:00 [DBG] Considering key {9e24c8a4-8c0a-4b11-8441-7806fc961171} with expiration date 2024-08-18 11:19:54Z as default key.
+2024-07-10 20:24:58.277 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-10 20:24:58.287 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-07-10 20:24:58.290 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-10 20:24:58.310 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-07-10 20:24:58.337 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-07-10 20:24:58.354 +03:00 [DBG] Using key {9e24c8a4-8c0a-4b11-8441-7806fc961171} as the default key.
+2024-07-10 20:24:58.360 +03:00 [DBG] Key ring with default key {9e24c8a4-8c0a-4b11-8441-7806fc961171} was loaded during application startup.
+2024-07-10 20:24:58.572 +03:00 [INF] Now listening on: https://localhost:7125
+2024-07-10 20:24:58.909 +03:00 [INF] Now listening on: http://localhost:5005
+2024-07-10 20:24:58.912 +03:00 [DBG] Loaded hosting startup assembly SocialMediaApi
+2024-07-10 20:24:58.917 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-10 20:24:58.920 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-10 20:24:58.923 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-10 20:24:58.925 +03:00 [INF] Hosting environment: Development
+2024-07-10 20:24:58.928 +03:00 [INF] Content root path: D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi
+2024-07-10 20:24:58.929 +03:00 [DBG] Connection id "0HN510KSM0KLU" accepted.
+2024-07-10 20:24:58.931 +03:00 [DBG] Hosting started
+2024-07-10 20:24:58.933 +03:00 [DBG] Connection id "0HN510KSM0KLV" accepted.
+2024-07-10 20:24:58.935 +03:00 [DBG] Connection id "0HN510KSM0KLU" started.
+2024-07-10 20:24:58.967 +03:00 [DBG] Connection id "0HN510KSM0KLU" received FIN.
+2024-07-10 20:24:58.968 +03:00 [DBG] Connection id "0HN510KSM0KLV" received FIN.
+2024-07-10 20:24:58.940 +03:00 [DBG] Connection id "0HN510KSM0KLV" started.
+2024-07-10 20:24:58.988 +03:00 [DBG] Connection id "0HN510KSM0KM0" accepted.
+2024-07-10 20:24:58.990 +03:00 [DBG] Connection id "0HN510KSM0KM0" started.
+2024-07-10 20:24:59.007 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-10 20:24:59.009 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-10 20:24:59.049 +03:00 [DBG] Connection id "0HN510KSM0KLU" stopped.
+2024-07-10 20:24:59.056 +03:00 [DBG] Connection id "0HN510KSM0KLV" stopped.
+2024-07-10 20:24:59.061 +03:00 [DBG] Connection id "0HN510KSM0KLU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:24:59.073 +03:00 [DBG] Connection id "0HN510KSM0KLV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:24:59.091 +03:00 [DBG] Connection 0HN510KSM0KM0 established using the following protocol: "Tls12"
+2024-07-10 20:24:59.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/index.html - -
+2024-07-10 20:24:59.317 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-10 20:24:59.361 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-10 20:24:59.365 +03:00 [DBG] Request did not match any endpoints
+2024-07-10 20:24:59.525 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-10 20:24:59.560 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-10 20:24:59.567 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/index.html - - - 200 - text/html;charset=utf-8 398.2230ms
+2024-07-10 20:24:59.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-07-10 20:24:59.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-07-10 20:24:59.592 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 8.5250ms
+2024-07-10 20:24:59.644 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.8923ms
+2024-07-10 20:24:59.881 +03:00 [DBG] Connection id "0HN510KSM0KM0" received FIN.
+2024-07-10 20:24:59.886 +03:00 [DBG] The connection queue processing loop for 0HN510KSM0KM0 completed.
+2024-07-10 20:24:59.890 +03:00 [DBG] Connection id "0HN510KSM0KM0" is closed. The last processed stream ID was 5.
+2024-07-10 20:24:59.893 +03:00 [DBG] Connection id "0HN510KSM0KM0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:24:59.902 +03:00 [DBG] Connection id "0HN510KSM0KM0" stopped.
+2024-07-10 20:24:59.903 +03:00 [DBG] Connection id "0HN510KSM0KM1" accepted.
+2024-07-10 20:24:59.907 +03:00 [DBG] Connection id "0HN510KSM0KM1" started.
+2024-07-10 20:24:59.911 +03:00 [DBG] Connection 0HN510KSM0KM1 established using the following protocol: "Tls12"
+2024-07-10 20:24:59.919 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - -
+2024-07-10 20:24:59.921 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-10 20:24:59.924 +03:00 [DBG] Request did not match any endpoints
+2024-07-10 20:25:00.188 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 269.3103ms
+2024-07-10 20:25:03.628 +03:00 [DBG] Connection id "0HN510KSM0KM2" accepted.
+2024-07-10 20:25:03.631 +03:00 [DBG] Connection id "0HN510KSM0KM2" received FIN.
+2024-07-10 20:25:03.633 +03:00 [DBG] Connection id "0HN510KSM0KM3" accepted.
+2024-07-10 20:25:03.634 +03:00 [DBG] Connection id "0HN510KSM0KM2" started.
+2024-07-10 20:25:03.637 +03:00 [DBG] Connection id "0HN510KSM0KM3" started.
+2024-07-10 20:25:03.639 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-10 20:25:03.649 +03:00 [DBG] Connection id "0HN510KSM0KM2" stopped.
+2024-07-10 20:25:03.650 +03:00 [DBG] Connection 0HN510KSM0KM3 established using the following protocol: "Tls12"
+2024-07-10 20:25:03.654 +03:00 [DBG] Connection id "0HN510KSM0KM2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:25:03.674 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7125/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88
+2024-07-10 20:25:03.685 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b'
+2024-07-10 20:25:03.692 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)' with route pattern 'api/Post/user/{userId}' is valid for the request path '/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b'
+2024-07-10 20:25:03.698 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:25:03.703 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-10 20:25:03.724 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-10 20:25:03.731 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:25:03.750 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.PostController.GetAllPostsOfUser (SocialMediaApi)'
+2024-07-10 20:25:03.752 +03:00 [ERR] An error occurred.
+System.InvalidCastException: Unable to cast object of type 'SocialMediaApi.Filters.ActionFilters.UserPostsListActionFilter' to type 'Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata'.
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 56
+2024-07-10 20:25:03.833 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to cast object of type 'SocialMediaApi.Filters.ActionFilters.UserPostsListActionFilter' to type 'Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata'.
+   at Microsoft.AspNetCore.Mvc.TypeFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 56
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-10 20:25:03.873 +03:00 [DBG] Connection id "0HN510KSM0KM3" completed keep alive response.
+2024-07-10 20:25:03.874 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7125/api/Post/User/47b857e8-3a0e-422f-a560-99b4a0fcf61b application/json 88 - 500 - text/plain;+charset=utf-8 200.2931ms
+2024-07-10 20:25:03.881 +03:00 [DBG] Connection id "0HN510KSM0KM3", Request id "0HN510KSM0KM3:00000001": started reading request body.
+2024-07-10 20:25:03.884 +03:00 [DBG] Connection id "0HN510KSM0KM3", Request id "0HN510KSM0KM3:00000001": done reading request body.
+2024-07-10 20:25:09.887 +03:00 [DBG] Connection id "0HN510KSM0KM1" received FIN.
+2024-07-10 20:25:09.893 +03:00 [DBG] Connection id "0HN510KSM0KM1" is closed. The last processed stream ID was 1.
+2024-07-10 20:25:09.893 +03:00 [DBG] The connection queue processing loop for 0HN510KSM0KM1 completed.
+2024-07-10 20:25:09.898 +03:00 [DBG] Connection id "0HN510KSM0KM1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:25:09.916 +03:00 [DBG] Connection id "0HN510KSM0KM1" stopped.
+2024-07-10 20:25:18.857 +03:00 [DBG] Connection id "0HN510KSM0KM4" accepted.
+2024-07-10 20:25:18.877 +03:00 [DBG] Connection id "0HN510KSM0KM4" started.
+2024-07-10 20:25:18.883 +03:00 [DBG] Connection 0HN510KSM0KM4 established using the following protocol: "Tls12"
+2024-07-10 20:25:19.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-07-10 20:25:19.458 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 4.2737ms
+2024-07-10 20:25:19.488 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-07-10 20:25:19.536 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.5495ms
+2024-07-10 20:25:19.891 +03:00 [DBG] Connection id "0HN510KSM0KM4" received FIN.
+2024-07-10 20:25:19.900 +03:00 [DBG] Connection id "0HN510KSM0KM4" is closed. The last processed stream ID was 3.
+2024-07-10 20:25:19.901 +03:00 [DBG] The connection queue processing loop for 0HN510KSM0KM4 completed.
+2024-07-10 20:25:19.903 +03:00 [DBG] Connection id "0HN510KSM0KM4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:25:19.916 +03:00 [DBG] Connection id "0HN510KSM0KM4" stopped.
+2024-07-10 20:25:19.920 +03:00 [DBG] Connection id "0HN510KSM0KM5" accepted.
+2024-07-10 20:25:19.934 +03:00 [DBG] Connection id "0HN510KSM0KM5" started.
+2024-07-10 20:25:19.939 +03:00 [DBG] Connection 0HN510KSM0KM5 established using the following protocol: "Tls12"
+2024-07-10 20:25:19.942 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - -
+2024-07-10 20:25:19.944 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-10 20:25:19.947 +03:00 [DBG] Request did not match any endpoints
+2024-07-10 20:25:19.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 32.7238ms
+2024-07-10 20:25:29.909 +03:00 [DBG] Connection id "0HN510KSM0KM5" received FIN.
+2024-07-10 20:25:30.103 +03:00 [DBG] Connection id "0HN510KSM0KM5" is closed. The last processed stream ID was 1.
+2024-07-10 20:25:30.103 +03:00 [DBG] The connection queue processing loop for 0HN510KSM0KM5 completed.
+2024-07-10 20:25:30.151 +03:00 [DBG] Connection id "0HN510KSM0KM5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-10 20:25:30.158 +03:00 [DBG] Connection id "0HN510KSM0KM5" stopped.
+2024-07-10 20:27:14.801 +03:00 [DBG] Connection id "0HN510KSM0KM3" disconnecting.
+2024-07-10 20:27:14.805 +03:00 [DBG] Connection id "0HN510KSM0KM3" stopped.
+2024-07-10 20:27:14.809 +03:00 [DBG] Connection id "0HN510KSM0KM3" sending FIN because: "The Socket transport's send loop completed gracefully."

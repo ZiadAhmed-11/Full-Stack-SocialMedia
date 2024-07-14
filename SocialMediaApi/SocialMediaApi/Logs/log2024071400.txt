@@ -1,0 +1,876 @@
+2024-07-14 00:00:50.020 +03:00 [DBG] Connection id "0HN53FPCKSM3D" disconnecting.
+2024-07-14 00:00:50.032 +03:00 [DBG] Connection id "0HN53FPCKSM3D" stopped.
+2024-07-14 00:00:50.034 +03:00 [DBG] Connection id "0HN53FPCKSM3D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 00:41:12.433 +03:00 [DBG] Connection id "0HN53FPCKSM3E" received FIN.
+2024-07-14 00:41:12.433 +03:00 [DBG] Connection id "0HN53FPCKSM3E" accepted.
+2024-07-14 00:41:12.437 +03:00 [DBG] Connection id "0HN53FPCKSM3E" started.
+2024-07-14 00:41:12.437 +03:00 [DBG] Connection id "0HN53FPCKSM3F" accepted.
+2024-07-14 00:41:12.439 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-14 00:41:12.441 +03:00 [DBG] Connection id "0HN53FPCKSM3F" started.
+2024-07-14 00:41:12.460 +03:00 [DBG] Connection id "0HN53FPCKSM3E" stopped.
+2024-07-14 00:41:12.462 +03:00 [DBG] Connection id "0HN53FPCKSM3E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 00:41:12.470 +03:00 [DBG] Connection 0HN53FPCKSM3F established using the following protocol: "Tls12"
+2024-07-14 00:41:12.473 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264
+2024-07-14 00:41:12.475 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/register'
+2024-07-14 00:41:12.476 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)' with route pattern 'api/User/register' is valid for the request path '/api/user/register'
+2024-07-14 00:41:12.479 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:41:12.482 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-14 00:41:12.483 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-14 00:41:12.485 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:41:12.487 +03:00 [INF] Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(SocialMedia.Data.Data.DTO.RegisterDTO) on controller SocialMediaApi.Controllers.UserController (SocialMediaApi).
+2024-07-14 00:41:12.491 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-07-14 00:41:12.493 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-07-14 00:41:12.495 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-07-14 00:41:12.500 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-07-14 00:41:12.502 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-07-14 00:41:12.505 +03:00 [DBG] Executing controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:41:12.508 +03:00 [DBG] Executed controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:41:12.513 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:41:12.516 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' using the name '' in request data ...
+2024-07-14 00:41:12.519 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-07-14 00:41:12.522 +03:00 [DBG] Connection id "0HN53FPCKSM3F", Request id "0HN53FPCKSM3F:00000001": started reading request body.
+2024-07-14 00:41:12.524 +03:00 [DBG] Connection id "0HN53FPCKSM3F", Request id "0HN53FPCKSM3F:00000001": done reading request body.
+2024-07-14 00:41:12.526 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SocialMedia.Data.Data.DTO.RegisterDTO'
+2024-07-14 00:41:12.529 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:41:12.535 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:41:12.537 +03:00 [DBG] Attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:41:12.540 +03:00 [DBG] Done attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:41:12.542 +03:00 [INF] IsEmailAlreadyExist of UserService
+2024-07-14 00:41:12.544 +03:00 [DBG] Is zezosharkawy@yahoo.com Already Exist?
+2024-07-14 00:41:12.639 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-14 00:41:12.655 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-14 00:41:12.657 +03:00 [DBG] Creating DbConnection.
+2024-07-14 00:41:12.659 +03:00 [DBG] Created DbConnection. (1ms).
+2024-07-14 00:41:12.660 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2024-07-14 00:41:12.663 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2024-07-14 00:41:12.666 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:41:12.689 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:41:12.692 +03:00 [DBG] Executing DbCommand [Parameters=[@__email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[Email] = @__email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-07-14 00:41:12.702 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[Email] = @__email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-07-14 00:41:12.707 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:41:12.708 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 2ms reading results.
+2024-07-14 00:41:12.710 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:41:12.711 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (1ms).
+2024-07-14 00:41:12.713 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-07-14 00:41:12.717 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-07-14 00:41:12.719 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-14 00:41:12.721 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-14 00:41:12.722 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-07-14 00:41:12.725 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-07-14 00:41:12.727 +03:00 [INF] Executed action SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi) in 222.4805ms
+2024-07-14 00:41:12.729 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:41:12.731 +03:00 [DBG] Connection id "0HN53FPCKSM3F" completed keep alive response.
+2024-07-14 00:41:12.733 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-14 00:41:12.735 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:41:12.737 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-07-14 00:41:12.739 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264 - 400 - text/plain;+charset=utf-8 266.7692ms
+2024-07-14 00:41:14.737 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264
+2024-07-14 00:41:14.738 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/register'
+2024-07-14 00:41:14.740 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)' with route pattern 'api/User/register' is valid for the request path '/api/user/register'
+2024-07-14 00:41:14.743 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:41:14.745 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-14 00:41:14.748 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-14 00:41:14.750 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:41:14.752 +03:00 [INF] Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(SocialMedia.Data.Data.DTO.RegisterDTO) on controller SocialMediaApi.Controllers.UserController (SocialMediaApi).
+2024-07-14 00:41:14.756 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-07-14 00:41:14.758 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-07-14 00:41:14.761 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-07-14 00:41:14.766 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-07-14 00:41:14.768 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-07-14 00:41:14.771 +03:00 [DBG] Executing controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:41:14.773 +03:00 [DBG] Executed controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:41:14.776 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:41:14.778 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' using the name '' in request data ...
+2024-07-14 00:41:14.783 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-07-14 00:41:14.786 +03:00 [DBG] Connection id "0HN53FPCKSM3F", Request id "0HN53FPCKSM3F:00000002": started reading request body.
+2024-07-14 00:41:14.788 +03:00 [DBG] Connection id "0HN53FPCKSM3F", Request id "0HN53FPCKSM3F:00000002": done reading request body.
+2024-07-14 00:41:14.791 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SocialMedia.Data.Data.DTO.RegisterDTO'
+2024-07-14 00:41:14.793 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:41:14.796 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:41:14.798 +03:00 [DBG] Attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:41:14.802 +03:00 [DBG] Done attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:41:14.804 +03:00 [INF] IsEmailAlreadyExist of UserService
+2024-07-14 00:41:14.806 +03:00 [DBG] Is zezosharkawy@yahoo.com Already Exist?
+2024-07-14 00:41:14.825 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-14 00:41:14.829 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-14 00:41:14.833 +03:00 [DBG] Creating DbConnection.
+2024-07-14 00:41:14.835 +03:00 [DBG] Created DbConnection. (1ms).
+2024-07-14 00:41:14.837 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (7ms).
+2024-07-14 00:41:14.839 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (9ms).
+2024-07-14 00:41:14.841 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:41:14.844 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:41:14.845 +03:00 [DBG] Executing DbCommand [Parameters=[@__email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[Email] = @__email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-07-14 00:41:14.885 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[@__email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[Email] = @__email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-07-14 00:41:14.889 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:41:14.891 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 1ms reading results.
+2024-07-14 00:41:14.893 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:41:14.895 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (1ms).
+2024-07-14 00:41:14.897 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-07-14 00:41:14.902 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-07-14 00:41:14.904 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-14 00:41:14.906 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-14 00:41:14.907 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-07-14 00:41:14.909 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-07-14 00:41:14.911 +03:00 [INF] Executed action SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi) in 140.3219ms
+2024-07-14 00:41:14.915 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:41:14.917 +03:00 [DBG] Connection id "0HN53FPCKSM3F" completed keep alive response.
+2024-07-14 00:41:14.918 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-14 00:41:14.920 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:41:14.922 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-07-14 00:41:14.924 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264 - 400 - text/plain;+charset=utf-8 187.5837ms
+2024-07-14 00:43:25.984 +03:00 [DBG] Connection id "0HN53FPCKSM3F" disconnecting.
+2024-07-14 00:43:25.989 +03:00 [DBG] Connection id "0HN53FPCKSM3F" stopped.
+2024-07-14 00:43:25.992 +03:00 [DBG] Connection id "0HN53FPCKSM3F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 00:44:06.758 +03:00 [DBG] debug-messages
+2024-07-14 00:44:06.817 +03:00 [INF] Information-messages
+2024-07-14 00:44:06.819 +03:00 [WRN] warning-messages
+2024-07-14 00:44:06.820 +03:00 [ERR] error-messages
+2024-07-14 00:44:06.821 +03:00 [FTL] critical-messages
+2024-07-14 00:44:06.933 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-14 00:44:07.060 +03:00 [DBG] Hosting starting
+2024-07-14 00:44:07.088 +03:00 [INF] User profile is available. Using 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-14 00:44:07.103 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5.xml'.
+2024-07-14 00:44:07.114 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-0a228ab3-8951-46e7-a96d-23771960201b.xml'.
+2024-07-14 00:44:07.117 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-245c0a72-8b3f-4865-a8f3-044c8465e7ce.xml'.
+2024-07-14 00:44:07.119 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-9e24c8a4-8c0a-4b11-8441-7806fc961171.xml'.
+2024-07-14 00:44:07.123 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-f8bc08b4-5662-407f-9999-ef927521d255.xml'.
+2024-07-14 00:44:07.131 +03:00 [DBG] Found key {00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5}.
+2024-07-14 00:44:07.139 +03:00 [DBG] Found key {0a228ab3-8951-46e7-a96d-23771960201b}.
+2024-07-14 00:44:07.144 +03:00 [DBG] Found key {245c0a72-8b3f-4865-a8f3-044c8465e7ce}.
+2024-07-14 00:44:07.146 +03:00 [DBG] Found key {9e24c8a4-8c0a-4b11-8441-7806fc961171}.
+2024-07-14 00:44:07.149 +03:00 [DBG] Found key {f8bc08b4-5662-407f-9999-ef927521d255}.
+2024-07-14 00:44:07.162 +03:00 [DBG] Considering key {9e24c8a4-8c0a-4b11-8441-7806fc961171} with expiration date 2024-08-18 11:19:54Z as default key.
+2024-07-14 00:44:07.268 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-14 00:44:07.275 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-07-14 00:44:07.279 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-14 00:44:07.288 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-07-14 00:44:07.296 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-07-14 00:44:07.305 +03:00 [DBG] Using key {9e24c8a4-8c0a-4b11-8441-7806fc961171} as the default key.
+2024-07-14 00:44:07.308 +03:00 [DBG] Key ring with default key {9e24c8a4-8c0a-4b11-8441-7806fc961171} was loaded during application startup.
+2024-07-14 00:44:07.601 +03:00 [INF] Now listening on: https://localhost:7125
+2024-07-14 00:44:07.605 +03:00 [INF] Now listening on: http://localhost:5005
+2024-07-14 00:44:07.609 +03:00 [DBG] Loaded hosting startup assembly SocialMediaApi
+2024-07-14 00:44:07.610 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-14 00:44:07.612 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-14 00:44:07.614 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-14 00:44:07.615 +03:00 [INF] Hosting environment: Development
+2024-07-14 00:44:07.617 +03:00 [INF] Content root path: D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi
+2024-07-14 00:44:07.619 +03:00 [DBG] Hosting started
+2024-07-14 00:44:07.713 +03:00 [DBG] Connection id "0HN53GJM6JD5M" received FIN.
+2024-07-14 00:44:07.720 +03:00 [DBG] Connection id "0HN53GJM6JD5M" accepted.
+2024-07-14 00:44:07.726 +03:00 [DBG] Connection id "0HN53GJM6JD5M" started.
+2024-07-14 00:44:07.750 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-14 00:44:07.950 +03:00 [DBG] Connection id "0HN53GJM6JD5N" accepted.
+2024-07-14 00:44:07.963 +03:00 [DBG] Connection id "0HN53GJM6JD5N" started.
+2024-07-14 00:44:07.965 +03:00 [DBG] Connection id "0HN53GJM6JD5M" stopped.
+2024-07-14 00:44:07.977 +03:00 [DBG] Connection id "0HN53GJM6JD5M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 00:44:08.452 +03:00 [DBG] Connection 0HN53GJM6JD5N established using the following protocol: "Tls12"
+2024-07-14 00:44:08.535 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/index.html - -
+2024-07-14 00:44:08.660 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-14 00:44:08.717 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-14 00:44:08.719 +03:00 [DBG] Request did not match any endpoints
+2024-07-14 00:44:08.863 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-14 00:44:08.907 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-14 00:44:08.969 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/index.html - - - 200 - text/html;charset=utf-8 438.0377ms
+2024-07-14 00:44:08.976 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-07-14 00:44:08.976 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-07-14 00:44:08.986 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 9.3715ms
+2024-07-14 00:44:09.070 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 94.2765ms
+2024-07-14 00:44:09.335 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - -
+2024-07-14 00:44:09.337 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-14 00:44:09.345 +03:00 [DBG] Request did not match any endpoints
+2024-07-14 00:44:09.664 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 329.0398ms
+2024-07-14 00:44:12.770 +03:00 [DBG] Connection id "0HN53GJM6JD5O" accepted.
+2024-07-14 00:44:12.773 +03:00 [DBG] Connection id "0HN53GJM6JD5O" received FIN.
+2024-07-14 00:44:12.775 +03:00 [DBG] Connection id "0HN53GJM6JD5O" started.
+2024-07-14 00:44:12.775 +03:00 [DBG] Connection id "0HN53GJM6JD5P" accepted.
+2024-07-14 00:44:12.778 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-14 00:44:12.779 +03:00 [DBG] Connection id "0HN53GJM6JD5P" started.
+2024-07-14 00:44:12.784 +03:00 [DBG] Connection id "0HN53GJM6JD5O" stopped.
+2024-07-14 00:44:12.786 +03:00 [DBG] Connection id "0HN53GJM6JD5O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 00:44:12.794 +03:00 [DBG] Connection 0HN53GJM6JD5P established using the following protocol: "Tls12"
+2024-07-14 00:44:12.804 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264
+2024-07-14 00:44:12.813 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/register'
+2024-07-14 00:44:12.820 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)' with route pattern 'api/User/register' is valid for the request path '/api/user/register'
+2024-07-14 00:44:12.824 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:44:12.828 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-14 00:44:12.842 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-14 00:44:12.846 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:44:12.894 +03:00 [INF] Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(SocialMedia.Data.Data.DTO.RegisterDTO) on controller SocialMediaApi.Controllers.UserController (SocialMediaApi).
+2024-07-14 00:44:12.899 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-07-14 00:44:12.901 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-07-14 00:44:12.903 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-07-14 00:44:12.909 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-07-14 00:44:12.911 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-07-14 00:44:12.915 +03:00 [DBG] Executing controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:44:13.268 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-14 00:44:13.325 +03:00 [DBG] Executed controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:44:13.336 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:44:13.344 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' using the name '' in request data ...
+2024-07-14 00:44:13.348 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-07-14 00:44:13.366 +03:00 [DBG] Connection id "0HN53GJM6JD5P", Request id "0HN53GJM6JD5P:00000001": started reading request body.
+2024-07-14 00:44:13.368 +03:00 [DBG] Connection id "0HN53GJM6JD5P", Request id "0HN53GJM6JD5P:00000001": done reading request body.
+2024-07-14 00:44:13.383 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SocialMedia.Data.Data.DTO.RegisterDTO'
+2024-07-14 00:44:13.385 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:44:13.388 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:44:13.392 +03:00 [DBG] Attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:44:13.412 +03:00 [DBG] Done attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:44:13.419 +03:00 [INF] IsEmailAlreadyExist of UserService
+2024-07-14 00:44:13.420 +03:00 [DBG] Is zezosharkawy@yahoo.com Already Exist?
+2024-07-14 00:44:13.424 +03:00 [INF] AddUser Action Method of UserController
+2024-07-14 00:44:13.426 +03:00 [DBG] Added User: Ziad Ahmed
+2024-07-14 00:44:14.580 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-14 00:44:14.584 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-14 00:44:14.586 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-14 00:44:14.812 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-14 00:44:14.815 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-14 00:44:15.158 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-14 00:44:15.332 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.NormalizedUserName == __normalizedUserName_0)'
+2024-07-14 00:44:15.588 +03:00 [DBG] Connection id "0HN53GJM6JD5N" received FIN.
+2024-07-14 00:44:15.595 +03:00 [DBG] The connection queue processing loop for 0HN53GJM6JD5N completed.
+2024-07-14 00:44:15.599 +03:00 [DBG] Connection id "0HN53GJM6JD5N" is closed. The last processed stream ID was 7.
+2024-07-14 00:44:15.601 +03:00 [DBG] Connection id "0HN53GJM6JD5N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 00:44:15.617 +03:00 [DBG] Connection id "0HN53GJM6JD5N" stopped.
+2024-07-14 00:44:15.697 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.AccessFailedCount (int) Required, 1], [Property: User.Age (int) Required, 2], [Property: User.Bio (string), 3], [Property: User.BirthDay (DateTime) Required, 4], [Property: User.City (string), 5], [Property: User.ConcurrencyStamp (string) Concurrency, 6], [Property: User.Country (string), 7], [Property: User.CoverImageUrl (string), 8], [Property: User.Email (string) MaxLength(256), 9], [Property: User.EmailConfirmed (bool) Required, 10], [Property: User.FirstName (string), 11], [Property: User.Gender (Gender) Required, 12], [Property: User.LastName (string), 13], [Property: User.LockoutEnabled (bool) Required, 14], [Property: User.LockoutEnd (DateTimeOffset?), 15], [Property: User.NormalizedEmail (string) Index MaxLength(256), 16], [Property: User.NormalizedUserName (string) Index MaxLength(256), 17], [Property: User.PasswordHash (string), 18], [Property: User.PhoneNumber (string), 19], [Property: User.PhoneNumberConfirmed (bool) Required, 20], [Property: User.ProfileImageUrl (string), 21], [Property: User.SecurityStamp (string), 22], [Property: User.TwoFactorEnabled (bool) Required, 23], [Property: User.UserName (string) MaxLength(256), 24] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.Age, a.Bio, a.BirthDay, a.City, a.ConcurrencyStamp, a.Country, a.CoverImageUrl, a.Email, a.EmailConfirmed, a.FirstName, a.Gender, a.LastName, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.ProfileImageUrl, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedUserName == @__normalizedUserName_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        SocialMedia.Data.Data.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-07-14 00:44:15.834 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-14 00:44:15.850 +03:00 [DBG] Creating DbConnection.
+2024-07-14 00:44:15.918 +03:00 [DBG] Created DbConnection. (63ms).
+2024-07-14 00:44:15.931 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (98ms).
+2024-07-14 00:44:15.955 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (122ms).
+2024-07-14 00:44:15.965 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:16.378 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:16.395 +03:00 [DBG] Executing DbCommand [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[Bio], [a].[BirthDay], [a].[City], [a].[ConcurrencyStamp], [a].[Country], [a].[CoverImageUrl], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImageUrl], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-07-14 00:44:16.643 +03:00 [INF] Executed DbCommand (252ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[Bio], [a].[BirthDay], [a].[City], [a].[ConcurrencyStamp], [a].[Country], [a].[CoverImageUrl], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImageUrl], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-07-14 00:44:16.793 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:16.809 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 32ms reading results.
+2024-07-14 00:44:16.817 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:16.827 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (9ms).
+2024-07-14 00:44:16.904 +03:00 [DBG] 'AppDbContext' generated a value for the property 'Id.User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-14 00:44:17.206 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-14 00:44:17.214 +03:00 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-07-14 00:44:17.246 +03:00 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-07-14 00:44:17.283 +03:00 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-07-14 00:44:17.465 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:17.678 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:17.684 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-14 00:44:17.685 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-07-14 00:44:17.692 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2024-07-14 00:44:17.694 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 256), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTimeOffset), @p16='?' (Size = 256), @p17='?' (Size = 256), @p18='?' (Size = 4000), @p19='?' (Size = 4000), @p20='?' (DbType = Boolean), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (DbType = Boolean), @p24='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [Age], [Bio], [BirthDay], [City], [ConcurrencyStamp], [Country], [CoverImageUrl], [Email], [EmailConfirmed], [FirstName], [Gender], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [ProfileImageUrl], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24);
+2024-07-14 00:44:17.752 +03:00 [INF] Executed DbCommand (58ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 256), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTimeOffset), @p16='?' (Size = 256), @p17='?' (Size = 256), @p18='?' (Size = 4000), @p19='?' (Size = 4000), @p20='?' (DbType = Boolean), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (DbType = Boolean), @p24='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [Age], [Bio], [BirthDay], [City], [ConcurrencyStamp], [Country], [CoverImageUrl], [Email], [EmailConfirmed], [FirstName], [Gender], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [ProfileImageUrl], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24);
+2024-07-14 00:44:17.762 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:17.765 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 5ms reading results.
+2024-07-14 00:44:17.769 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:17.774 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (2ms).
+2024-07-14 00:44:17.793 +03:00 [DBG] An entity of type 'User' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-14 00:44:17.799 +03:00 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-07-14 00:44:17.852 +03:00 [DBG] Compiling query expression: 
+'DbSet<IdentityUserClaim<Guid>>()
+    .Where(uc => uc.UserId.Equals(__user_Id_0))
+    .Select(c => c.ToClaim())'
+2024-07-14 00:44:17.901 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Claim>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: IdentityUserClaim<Guid>.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: IdentityUserClaim<Guid>.ClaimType (string), 1], [Property: IdentityUserClaim<Guid>.ClaimValue (string), 2], [Property: IdentityUserClaim<Guid>.UserId (Guid) Required FK Index, 3] }
+        SELECT a.Id, a.ClaimType, a.ClaimValue, a.UserId
+        FROM AspNetUserClaims AS a
+        WHERE a.UserId == @__user_Id_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Claim>, 
+    SocialMedia.Data.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-07-14 00:44:17.909 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-14 00:44:17.911 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-07-14 00:44:17.913 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-07-14 00:44:17.915 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:17.917 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:17.919 +03:00 [DBG] Executing DbCommand [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-07-14 00:44:17.969 +03:00 [INF] Executed DbCommand (50ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-07-14 00:44:17.979 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:17.982 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 4ms reading results.
+2024-07-14 00:44:17.986 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:17.992 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (6ms).
+2024-07-14 00:44:18.016 +03:00 [DBG] Compiling query expression: 
+'DbSet<IdentityUserRole<Guid>>()
+    .Join(
+        inner: DbSet<ApplicationRole>(), 
+        outerKeySelector: userRole => userRole.RoleId, 
+        innerKeySelector: role => role.Id, 
+        resultSelector: (userRole, role) => new { 
+            userRole = userRole, 
+            role = role
+         })
+    .Where(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.userRole.UserId.Equals(__userId_0))
+    .Select(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.role.Name)'
+2024-07-14 00:44:18.084 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<string>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT a0.Name
+        FROM AspNetUserRoles AS a
+        INNER JOIN AspNetRoles AS a0 ON a.RoleId == a0.Id
+        WHERE a.UserId == @__userId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, string>, 
+    SocialMedia.Data.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-07-14 00:44:18.090 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-14 00:44:18.092 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-07-14 00:44:18.094 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-07-14 00:44:18.095 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:18.097 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:18.099 +03:00 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-07-14 00:44:18.204 +03:00 [INF] Executed DbCommand (105ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-07-14 00:44:18.212 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:18.215 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 3ms reading results.
+2024-07-14 00:44:18.217 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:18.219 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (2ms).
+2024-07-14 00:44:18.243 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-07-14 00:44:30.558 +03:00 [INF] Executed action SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi) in 17638.418ms
+2024-07-14 00:44:30.562 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:44:30.566 +03:00 [ERR] An error occurred.
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. Error: 535 5.7.3 Authentication unsuccessful [MR1P264CA0014.FRAP264.PROD.OUTLOOK.COM 2024-07-13T21:44:31.242Z 08DCA35DEECB92D0]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at SocialMediaApi.Controllers.UserController.AddUser(RegisterDTO registerUser) in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Controllers\UserController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 63
+2024-07-14 00:44:30.620 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. Error: 535 5.7.3 Authentication unsuccessful [MR1P264CA0014.FRAP264.PROD.OUTLOOK.COM 2024-07-13T21:44:31.242Z 08DCA35DEECB92D0]
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at SocialMediaApi.Controllers.UserController.AddUser(RegisterDTO registerUser) in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Controllers\UserController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 63
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-14 00:44:30.647 +03:00 [DBG] Connection id "0HN53GJM6JD5P" completed keep alive response.
+2024-07-14 00:44:30.653 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-14 00:44:30.660 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:44:30.664 +03:00 [DBG] Disposed connection to database '' on server '' (3ms).
+2024-07-14 00:44:30.667 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264 - 500 - text/plain;+charset=utf-8 17862.3732ms
+2024-07-14 00:46:40.988 +03:00 [DBG] Connection id "0HN53GJM6JD5P" disconnecting.
+2024-07-14 00:46:40.990 +03:00 [DBG] Connection id "0HN53GJM6JD5P" stopped.
+2024-07-14 00:46:40.991 +03:00 [DBG] Connection id "0HN53GJM6JD5P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 00:58:11.088 +03:00 [DBG] Connection id "0HN53GJM6JD5Q" received FIN.
+2024-07-14 00:58:11.090 +03:00 [DBG] Connection id "0HN53GJM6JD5Q" accepted.
+2024-07-14 00:58:11.092 +03:00 [DBG] Connection id "0HN53GJM6JD5Q" started.
+2024-07-14 00:58:11.092 +03:00 [DBG] Connection id "0HN53GJM6JD5R" accepted.
+2024-07-14 00:58:11.094 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-14 00:58:11.095 +03:00 [DBG] Connection id "0HN53GJM6JD5R" started.
+2024-07-14 00:58:11.099 +03:00 [DBG] Connection id "0HN53GJM6JD5Q" stopped.
+2024-07-14 00:58:11.103 +03:00 [DBG] Connection id "0HN53GJM6JD5Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 00:58:11.104 +03:00 [DBG] Connection 0HN53GJM6JD5R established using the following protocol: "Tls12"
+2024-07-14 00:58:11.108 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264
+2024-07-14 00:58:11.113 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/register'
+2024-07-14 00:58:11.115 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)' with route pattern 'api/User/register' is valid for the request path '/api/user/register'
+2024-07-14 00:58:11.119 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:58:11.120 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-14 00:58:11.126 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-14 00:58:11.128 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:58:11.130 +03:00 [INF] Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(SocialMedia.Data.Data.DTO.RegisterDTO) on controller SocialMediaApi.Controllers.UserController (SocialMediaApi).
+2024-07-14 00:58:11.135 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-07-14 00:58:11.138 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-07-14 00:58:11.140 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-07-14 00:58:11.143 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-07-14 00:58:11.145 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-07-14 00:58:11.148 +03:00 [DBG] Executing controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:58:11.157 +03:00 [DBG] Executed controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:58:11.159 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:58:11.162 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' using the name '' in request data ...
+2024-07-14 00:58:11.164 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-07-14 00:58:11.168 +03:00 [DBG] Connection id "0HN53GJM6JD5R", Request id "0HN53GJM6JD5R:00000001": started reading request body.
+2024-07-14 00:58:11.170 +03:00 [DBG] Connection id "0HN53GJM6JD5R", Request id "0HN53GJM6JD5R:00000001": done reading request body.
+2024-07-14 00:58:11.172 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SocialMedia.Data.Data.DTO.RegisterDTO'
+2024-07-14 00:58:11.174 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:58:11.176 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:58:11.178 +03:00 [DBG] Attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:58:11.181 +03:00 [DBG] Done attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:58:11.186 +03:00 [INF] IsEmailAlreadyExist of UserService
+2024-07-14 00:58:11.187 +03:00 [DBG] Is zezosharkawy@yahoo.com Already Exist?
+2024-07-14 00:58:11.188 +03:00 [INF] AddUser Action Method of UserController
+2024-07-14 00:58:11.190 +03:00 [DBG] Added User: Ziad Ahmed
+2024-07-14 00:58:11.406 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-14 00:58:11.413 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-14 00:58:11.415 +03:00 [DBG] Creating DbConnection.
+2024-07-14 00:58:11.416 +03:00 [DBG] Created DbConnection. (1ms).
+2024-07-14 00:58:11.420 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2024-07-14 00:58:11.422 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (8ms).
+2024-07-14 00:58:11.424 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:11.430 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:11.432 +03:00 [DBG] Executing DbCommand [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[Bio], [a].[BirthDay], [a].[City], [a].[ConcurrencyStamp], [a].[Country], [a].[CoverImageUrl], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImageUrl], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-07-14 00:58:11.443 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[Bio], [a].[BirthDay], [a].[City], [a].[ConcurrencyStamp], [a].[Country], [a].[CoverImageUrl], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImageUrl], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-07-14 00:58:11.492 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-14 00:58:11.496 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:11.498 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 50ms reading results.
+2024-07-14 00:58:11.502 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:11.504 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (1ms).
+2024-07-14 00:58:11.526 +03:00 [DBG] User validation failed: DuplicateUserName.
+2024-07-14 00:58:11.529 +03:00 [INF] Executed action SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi) in 381.2382ms
+2024-07-14 00:58:11.531 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:58:11.533 +03:00 [ERR] An error occurred.
+System.Exception: Username 'zezosharkawy@yahoo.com' is already taken.
+   at SocialMedia.Services.Services.UserService.AddAsync(RegisterDTO registerUser) in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMedia.Services\Services\UserService.cs:line 49
+   at SocialMediaApi.Controllers.UserController.AddUser(RegisterDTO registerUser) in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Controllers\UserController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 63
+2024-07-14 00:58:11.570 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Username 'zezosharkawy@yahoo.com' is already taken.
+   at SocialMedia.Services.Services.UserService.AddAsync(RegisterDTO registerUser) in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMedia.Services\Services\UserService.cs:line 49
+   at SocialMediaApi.Controllers.UserController.AddUser(RegisterDTO registerUser) in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Controllers\UserController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 63
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-14 00:58:11.588 +03:00 [DBG] Connection id "0HN53GJM6JD5R" completed keep alive response.
+2024-07-14 00:58:11.590 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-14 00:58:11.591 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:11.593 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-07-14 00:58:11.596 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264 - 500 - text/plain;+charset=utf-8 487.1029ms
+2024-07-14 00:58:14.608 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264
+2024-07-14 00:58:14.609 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/register'
+2024-07-14 00:58:14.611 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)' with route pattern 'api/User/register' is valid for the request path '/api/user/register'
+2024-07-14 00:58:14.615 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:58:14.619 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-14 00:58:14.621 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-14 00:58:14.623 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:58:14.625 +03:00 [INF] Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(SocialMedia.Data.Data.DTO.RegisterDTO) on controller SocialMediaApi.Controllers.UserController (SocialMediaApi).
+2024-07-14 00:58:14.629 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-07-14 00:58:14.631 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-07-14 00:58:14.635 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-07-14 00:58:14.640 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-07-14 00:58:14.642 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-07-14 00:58:14.646 +03:00 [DBG] Executing controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:58:14.681 +03:00 [DBG] Executed controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:58:14.686 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:58:14.688 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' using the name '' in request data ...
+2024-07-14 00:58:14.691 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-07-14 00:58:14.693 +03:00 [DBG] Connection id "0HN53GJM6JD5R", Request id "0HN53GJM6JD5R:00000002": started reading request body.
+2024-07-14 00:58:14.695 +03:00 [DBG] Connection id "0HN53GJM6JD5R", Request id "0HN53GJM6JD5R:00000002": done reading request body.
+2024-07-14 00:58:14.697 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SocialMedia.Data.Data.DTO.RegisterDTO'
+2024-07-14 00:58:14.699 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:58:14.704 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:58:14.707 +03:00 [DBG] Attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:58:14.709 +03:00 [DBG] Done attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:58:14.712 +03:00 [INF] IsEmailAlreadyExist of UserService
+2024-07-14 00:58:14.714 +03:00 [DBG] Is zezosharkawy@yahoo.com Already Exist?
+2024-07-14 00:58:14.715 +03:00 [INF] AddUser Action Method of UserController
+2024-07-14 00:58:14.718 +03:00 [DBG] Added User: Ziad Ahmed
+2024-07-14 00:58:14.880 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-14 00:58:14.886 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-14 00:58:14.888 +03:00 [DBG] Creating DbConnection.
+2024-07-14 00:58:14.889 +03:00 [DBG] Created DbConnection. (1ms).
+2024-07-14 00:58:14.890 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-07-14 00:58:14.892 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2024-07-14 00:58:14.894 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:14.896 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:14.898 +03:00 [DBG] Executing DbCommand [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[Bio], [a].[BirthDay], [a].[City], [a].[ConcurrencyStamp], [a].[Country], [a].[CoverImageUrl], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImageUrl], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-07-14 00:58:14.904 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Age], [a].[Bio], [a].[BirthDay], [a].[City], [a].[ConcurrencyStamp], [a].[Country], [a].[CoverImageUrl], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ProfileImageUrl], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-07-14 00:58:14.908 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-14 00:58:14.911 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:14.913 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 4ms reading results.
+2024-07-14 00:58:14.915 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:14.918 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (3ms).
+2024-07-14 00:58:14.920 +03:00 [DBG] User validation failed: DuplicateUserName.
+2024-07-14 00:58:14.922 +03:00 [INF] Executed action SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi) in 276.2654ms
+2024-07-14 00:58:14.924 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:58:14.927 +03:00 [ERR] An error occurred.
+System.Exception: Username 'zezosharkawy@yahoo.com' is already taken.
+   at SocialMedia.Services.Services.UserService.AddAsync(RegisterDTO registerUser) in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMedia.Services\Services\UserService.cs:line 49
+   at SocialMediaApi.Controllers.UserController.AddUser(RegisterDTO registerUser) in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Controllers\UserController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 63
+2024-07-14 00:58:14.942 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Username 'zezosharkawy@yahoo.com' is already taken.
+   at SocialMedia.Services.Services.UserService.AddAsync(RegisterDTO registerUser) in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMedia.Services\Services\UserService.cs:line 49
+   at SocialMediaApi.Controllers.UserController.AddUser(RegisterDTO registerUser) in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Controllers\UserController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi\Program.cs:line 63
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-14 00:58:14.959 +03:00 [DBG] Connection id "0HN53GJM6JD5R" completed keep alive response.
+2024-07-14 00:58:14.961 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-14 00:58:14.962 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:14.966 +03:00 [DBG] Disposed connection to database '' on server '' (3ms).
+2024-07-14 00:58:14.970 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264 - 500 - text/plain;+charset=utf-8 362.3867ms
+2024-07-14 00:58:28.188 +03:00 [DBG] debug-messages
+2024-07-14 00:58:28.243 +03:00 [INF] Information-messages
+2024-07-14 00:58:28.245 +03:00 [WRN] warning-messages
+2024-07-14 00:58:28.247 +03:00 [ERR] error-messages
+2024-07-14 00:58:28.248 +03:00 [FTL] critical-messages
+2024-07-14 00:58:28.359 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-14 00:58:28.447 +03:00 [DBG] Hosting starting
+2024-07-14 00:58:28.475 +03:00 [INF] User profile is available. Using 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-14 00:58:28.483 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5.xml'.
+2024-07-14 00:58:28.492 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-0a228ab3-8951-46e7-a96d-23771960201b.xml'.
+2024-07-14 00:58:28.494 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-245c0a72-8b3f-4865-a8f3-044c8465e7ce.xml'.
+2024-07-14 00:58:28.496 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-9e24c8a4-8c0a-4b11-8441-7806fc961171.xml'.
+2024-07-14 00:58:28.498 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-f8bc08b4-5662-407f-9999-ef927521d255.xml'.
+2024-07-14 00:58:28.507 +03:00 [DBG] Found key {00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5}.
+2024-07-14 00:58:28.516 +03:00 [DBG] Found key {0a228ab3-8951-46e7-a96d-23771960201b}.
+2024-07-14 00:58:28.518 +03:00 [DBG] Found key {245c0a72-8b3f-4865-a8f3-044c8465e7ce}.
+2024-07-14 00:58:28.522 +03:00 [DBG] Found key {9e24c8a4-8c0a-4b11-8441-7806fc961171}.
+2024-07-14 00:58:28.524 +03:00 [DBG] Found key {f8bc08b4-5662-407f-9999-ef927521d255}.
+2024-07-14 00:58:28.536 +03:00 [DBG] Considering key {9e24c8a4-8c0a-4b11-8441-7806fc961171} with expiration date 2024-08-18 11:19:54Z as default key.
+2024-07-14 00:58:28.543 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-14 00:58:28.548 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-07-14 00:58:28.553 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-14 00:58:28.563 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-07-14 00:58:28.572 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-07-14 00:58:28.580 +03:00 [DBG] Using key {9e24c8a4-8c0a-4b11-8441-7806fc961171} as the default key.
+2024-07-14 00:58:28.583 +03:00 [DBG] Key ring with default key {9e24c8a4-8c0a-4b11-8441-7806fc961171} was loaded during application startup.
+2024-07-14 00:58:28.795 +03:00 [INF] Now listening on: https://localhost:7125
+2024-07-14 00:58:28.797 +03:00 [INF] Now listening on: http://localhost:5005
+2024-07-14 00:58:28.804 +03:00 [DBG] Loaded hosting startup assembly SocialMediaApi
+2024-07-14 00:58:28.805 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-14 00:58:28.807 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-14 00:58:28.809 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-14 00:58:28.811 +03:00 [INF] Hosting environment: Development
+2024-07-14 00:58:28.813 +03:00 [INF] Content root path: D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi
+2024-07-14 00:58:28.814 +03:00 [DBG] Hosting started
+2024-07-14 00:58:29.292 +03:00 [DBG] Connection id "0HN53GRMV8EMM" received FIN.
+2024-07-14 00:58:29.292 +03:00 [DBG] Connection id "0HN53GRMV8EMN" received FIN.
+2024-07-14 00:58:29.304 +03:00 [DBG] Connection id "0HN53GRMV8EMN" accepted.
+2024-07-14 00:58:29.304 +03:00 [DBG] Connection id "0HN53GRMV8EMM" accepted.
+2024-07-14 00:58:29.307 +03:00 [DBG] Connection id "0HN53GRMV8EMN" started.
+2024-07-14 00:58:29.308 +03:00 [DBG] Connection id "0HN53GRMV8EMM" started.
+2024-07-14 00:58:29.311 +03:00 [DBG] Connection id "0HN53GRMV8EMO" accepted.
+2024-07-14 00:58:29.313 +03:00 [DBG] Connection id "0HN53GRMV8EMO" started.
+2024-07-14 00:58:29.327 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-14 00:58:29.327 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-14 00:58:29.354 +03:00 [DBG] Connection id "0HN53GRMV8EMM" stopped.
+2024-07-14 00:58:29.354 +03:00 [DBG] Connection id "0HN53GRMV8EMN" stopped.
+2024-07-14 00:58:29.358 +03:00 [DBG] Connection id "0HN53GRMV8EMM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 00:58:29.359 +03:00 [DBG] Connection id "0HN53GRMV8EMN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 00:58:29.386 +03:00 [DBG] Connection 0HN53GRMV8EMO established using the following protocol: "Tls12"
+2024-07-14 00:58:29.450 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/index.html - -
+2024-07-14 00:58:29.570 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-14 00:58:29.604 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-14 00:58:29.606 +03:00 [DBG] Request did not match any endpoints
+2024-07-14 00:58:29.819 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-14 00:58:29.851 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-14 00:58:29.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/index.html - - - 200 - text/html;charset=utf-8 411.4505ms
+2024-07-14 00:58:29.876 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-07-14 00:58:29.876 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-07-14 00:58:29.885 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 7.7583ms
+2024-07-14 00:58:29.937 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.8649ms
+2024-07-14 00:58:30.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - -
+2024-07-14 00:58:30.702 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-14 00:58:30.703 +03:00 [DBG] Request did not match any endpoints
+2024-07-14 00:58:30.989 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7125/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 291.4261ms
+2024-07-14 00:58:31.868 +03:00 [DBG] Connection id "0HN53GRMV8EMP" accepted.
+2024-07-14 00:58:31.875 +03:00 [DBG] Connection id "0HN53GRMV8EMP" started.
+2024-07-14 00:58:31.870 +03:00 [DBG] Connection id "0HN53GRMV8EMP" received FIN.
+2024-07-14 00:58:31.877 +03:00 [DBG] Connection id "0HN53GRMV8EMQ" accepted.
+2024-07-14 00:58:31.878 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-14 00:58:31.879 +03:00 [DBG] Connection id "0HN53GRMV8EMQ" started.
+2024-07-14 00:58:31.886 +03:00 [DBG] Connection id "0HN53GRMV8EMP" stopped.
+2024-07-14 00:58:31.889 +03:00 [DBG] Connection id "0HN53GRMV8EMP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-14 00:58:31.895 +03:00 [DBG] Connection 0HN53GRMV8EMQ established using the following protocol: "Tls12"
+2024-07-14 00:58:31.912 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264
+2024-07-14 00:58:31.922 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/register'
+2024-07-14 00:58:31.929 +03:00 [DBG] Endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)' with route pattern 'api/User/register' is valid for the request path '/api/user/register'
+2024-07-14 00:58:31.932 +03:00 [DBG] Request matched endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:58:31.937 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-07-14 00:58:31.954 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-07-14 00:58:31.958 +03:00 [INF] Executing endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:58:32.001 +03:00 [INF] Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUser(SocialMedia.Data.Data.DTO.RegisterDTO) on controller SocialMediaApi.Controllers.UserController (SocialMediaApi).
+2024-07-14 00:58:32.006 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-07-14 00:58:32.009 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-07-14 00:58:32.011 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-07-14 00:58:32.014 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-07-14 00:58:32.017 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-07-14 00:58:32.023 +03:00 [DBG] Executing controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:58:32.172 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-14 00:58:32.217 +03:00 [DBG] Executed controller factory for controller SocialMediaApi.Controllers.UserController (SocialMediaApi)
+2024-07-14 00:58:32.225 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:58:32.230 +03:00 [DBG] Attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' using the name '' in request data ...
+2024-07-14 00:58:32.235 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-07-14 00:58:32.253 +03:00 [DBG] Connection id "0HN53GRMV8EMQ", Request id "0HN53GRMV8EMQ:00000001": started reading request body.
+2024-07-14 00:58:32.255 +03:00 [DBG] Connection id "0HN53GRMV8EMQ", Request id "0HN53GRMV8EMQ:00000001": done reading request body.
+2024-07-14 00:58:32.269 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SocialMedia.Data.Data.DTO.RegisterDTO'
+2024-07-14 00:58:32.272 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:58:32.273 +03:00 [DBG] Done attempting to bind parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:58:32.275 +03:00 [DBG] Attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO' ...
+2024-07-14 00:58:32.304 +03:00 [DBG] Done attempting to validate the bound parameter 'registerUser' of type 'SocialMedia.Data.Data.DTO.RegisterDTO'.
+2024-07-14 00:58:32.310 +03:00 [INF] IsEmailAlreadyExist of UserService
+2024-07-14 00:58:32.311 +03:00 [DBG] Is zezosharkawy@yahoo.com Already Exist?
+2024-07-14 00:58:32.952 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-14 00:58:32.955 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-14 00:58:32.957 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-14 00:58:33.106 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-14 00:58:33.109 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-14 00:58:33.337 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-14 00:58:33.418 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(u => u.Email == __email_0)'
+2024-07-14 00:58:33.629 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM AspNetUsers AS a
+            WHERE a.Email == @__email_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    SocialMedia.Data.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2024-07-14 00:58:33.684 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-14 00:58:33.689 +03:00 [DBG] Creating DbConnection.
+2024-07-14 00:58:33.714 +03:00 [DBG] Created DbConnection. (23ms).
+2024-07-14 00:58:33.725 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (40ms).
+2024-07-14 00:58:33.741 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (59ms).
+2024-07-14 00:58:33.746 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:33.948 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:33.961 +03:00 [DBG] Executing DbCommand [Parameters=[@__email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[Email] = @__email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-07-14 00:58:34.005 +03:00 [INF] Executed DbCommand (46ms) [Parameters=[@__email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[Email] = @__email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-07-14 00:58:34.021 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:34.030 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 16ms reading results.
+2024-07-14 00:58:34.036 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:34.046 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (9ms).
+2024-07-14 00:58:34.052 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-07-14 00:58:34.058 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-07-14 00:58:34.059 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-14 00:58:34.060 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-14 00:58:34.063 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-07-14 00:58:34.066 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-07-14 00:58:34.075 +03:00 [INF] Executed action SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi) in 2050.3131ms
+2024-07-14 00:58:34.078 +03:00 [INF] Executed endpoint 'SocialMediaApi.Controllers.UserController.AddUser (SocialMediaApi)'
+2024-07-14 00:58:34.079 +03:00 [DBG] Connection id "0HN53GRMV8EMQ" completed keep alive response.
+2024-07-14 00:58:34.087 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-14 00:58:34.095 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-14 00:58:34.100 +03:00 [DBG] Disposed connection to database '' on server '' (4ms).
+2024-07-14 00:58:34.103 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7125/api/user/register application/json 264 - 400 - text/plain;+charset=utf-8 2190.9543ms

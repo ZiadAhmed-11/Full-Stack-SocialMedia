@@ -1,0 +1,91 @@
+2024-07-12 00:57:56.488 +03:00 [DBG] debug-messages
+2024-07-12 00:57:56.555 +03:00 [INF] Information-messages
+2024-07-12 00:57:56.558 +03:00 [WRN] warning-messages
+2024-07-12 00:57:56.559 +03:00 [ERR] error-messages
+2024-07-12 00:57:56.560 +03:00 [FTL] critical-messages
+2024-07-12 00:57:56.643 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-12 00:57:56.815 +03:00 [DBG] Hosting starting
+2024-07-12 00:57:56.884 +03:00 [INF] User profile is available. Using 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-12 00:57:57.148 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5.xml'.
+2024-07-12 00:57:57.159 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-0a228ab3-8951-46e7-a96d-23771960201b.xml'.
+2024-07-12 00:57:57.162 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-245c0a72-8b3f-4865-a8f3-044c8465e7ce.xml'.
+2024-07-12 00:57:57.164 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-9e24c8a4-8c0a-4b11-8441-7806fc961171.xml'.
+2024-07-12 00:57:57.166 +03:00 [DBG] Reading data from file 'C:\Users\El-Wattaneya\AppData\Local\ASP.NET\DataProtection-Keys\key-f8bc08b4-5662-407f-9999-ef927521d255.xml'.
+2024-07-12 00:57:57.173 +03:00 [DBG] Found key {00c2f2ee-c1a7-4776-a7e8-5bdf1497aff5}.
+2024-07-12 00:57:57.181 +03:00 [DBG] Found key {0a228ab3-8951-46e7-a96d-23771960201b}.
+2024-07-12 00:57:57.183 +03:00 [DBG] Found key {245c0a72-8b3f-4865-a8f3-044c8465e7ce}.
+2024-07-12 00:57:57.185 +03:00 [DBG] Found key {9e24c8a4-8c0a-4b11-8441-7806fc961171}.
+2024-07-12 00:57:57.186 +03:00 [DBG] Found key {f8bc08b4-5662-407f-9999-ef927521d255}.
+2024-07-12 00:57:57.207 +03:00 [DBG] Considering key {9e24c8a4-8c0a-4b11-8441-7806fc961171} with expiration date 2024-08-18 11:19:54Z as default key.
+2024-07-12 00:57:57.718 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-12 00:57:57.730 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-07-12 00:57:57.736 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-12 00:57:57.749 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-07-12 00:57:57.757 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-07-12 00:57:57.765 +03:00 [DBG] Using key {9e24c8a4-8c0a-4b11-8441-7806fc961171} as the default key.
+2024-07-12 00:57:57.767 +03:00 [DBG] Key ring with default key {9e24c8a4-8c0a-4b11-8441-7806fc961171} was loaded during application startup.
+2024-07-12 00:57:58.010 +03:00 [INF] Now listening on: https://localhost:7125
+2024-07-12 00:57:58.023 +03:00 [INF] Now listening on: http://localhost:5005
+2024-07-12 00:57:58.028 +03:00 [DBG] Loaded hosting startup assembly SocialMediaApi
+2024-07-12 00:57:58.029 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-12 00:57:58.031 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-12 00:57:58.032 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-12 00:57:58.033 +03:00 [INF] Hosting environment: Development
+2024-07-12 00:57:58.035 +03:00 [INF] Content root path: D:\Asp.Net Core 2023\Projects\Social Media Api\SocialMediaApi\SocialMediaApi
+2024-07-12 00:57:58.037 +03:00 [DBG] Hosting started
+2024-07-12 00:58:10.971 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-12 00:58:12.169 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-12 00:58:12.172 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-12 00:58:12.172 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-12 00:58:12.427 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:58:12.427 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:58:12.773 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: None
+2024-07-12 00:58:12.937 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<Guid>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-07-12 00:58:12.937 +03:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<Guid>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-07-12 00:58:12.937 +03:00 [DBG] The index {'UserId'} was not created on entity type 'Like' as the properties are already covered by the index {'UserId', 'PostId'}.
+2024-07-12 00:58:12.961 +03:00 [DBG] The property 'Chat.ReceiverUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:58:12.961 +03:00 [DBG] The property 'Chat.SenderUserId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-07-12 00:58:13.298 +03:00 [DBG] Creating DbConnection.
+2024-07-12 00:58:13.397 +03:00 [DBG] Created DbConnection. (95ms).
+2024-07-12 00:58:13.404 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:58:13.770 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:58:13.783 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-07-12 00:58:13.794 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (11ms).
+2024-07-12 00:58:13.798 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (20ms).
+2024-07-12 00:58:13.809 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:58:13.868 +03:00 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-12 00:58:13.871 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:58:13.884 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (8ms).
+2024-07-12 00:58:13.889 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-07-12 00:58:13.889 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:58:13.889 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-07-12 00:58:13.890 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:58:13.891 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:58:13.892 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:58:13.919 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-12 00:58:13.919 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:58:13.920 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:58:13.938 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-07-12 00:58:13.938 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-07-12 00:58:13.939 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-07-12 00:58:13.939 +03:00 [DBG] Opening connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:58:13.939 +03:00 [DBG] Opened connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:58:13.940 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-07-12 00:58:13.953 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-07-12 00:58:13.958 +03:00 [DBG] Closing data reader to 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:58:13.961 +03:00 [DBG] A data reader for 'SocialMediaApi' on server 'PC-1' is being disposed after spending 4ms reading results.
+2024-07-12 00:58:13.961 +03:00 [DBG] Closing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:58:13.961 +03:00 [DBG] Closed connection to database 'SocialMediaApi' on server 'PC-1' (0ms).
+2024-07-12 00:58:14.141 +03:00 [DBG] 'AppDbContext' disposed.
+2024-07-12 00:58:14.144 +03:00 [DBG] Disposing connection to database 'SocialMediaApi' on server 'PC-1'.
+2024-07-12 00:58:14.145 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
